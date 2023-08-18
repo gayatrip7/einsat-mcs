@@ -1,0 +1,3133 @@
+checksum "bdot.elf" 0xa617fab8;
+
+// Low-level flow facts
+multibranch "f32xsqrtf64" + 0x4520 to 5;	// 0x000178dc () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4524 to 5;	// 0x000178e0 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x452c to 5;	// 0x000178e8 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4534 to 5;	// 0x000178f0 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x453c to 5;	// 0x000178f8 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4544 to 5;	// 0x00017900 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x454c to 5;	// 0x00017908 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4554 to 5;	// 0x00017910 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x455c to 5;	// 0x00017918 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4564 to 5;	// 0x00017920 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x4568 to 5;	// 0x00017924 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x456c to 5;	// 0x00017928 () switch-like branch in "f32xsqrtf64"
+
+multibranch "f32xsqrtf64" + 0x46b0 to 5;	// 0x00017a6c () switch-like branch in "f32xsqrtf64"
+
+multibranch "asinf32x" + 0x1a50 to 5;	// 0x00014cb8 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a54 to 5;	// 0x00014cbc () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a58 to 5;	// 0x00014cc0 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a5c to 5;	// 0x00014cc4 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a60 to 5;	// 0x00014cc8 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a64 to 5;	// 0x00014ccc () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a68 to 5;	// 0x00014cd0 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a6c to 5;	// 0x00014cd4 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a70 to 5;	// 0x00014cd8 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a74 to 5;	// 0x00014cdc () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a7c to 5;	// 0x00014ce4 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a84 to 5;	// 0x00014cec () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a8c to 5;	// 0x00014cf4 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a94 to 5;	// 0x00014cfc () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1a9c to 5;	// 0x00014d04 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1abc to 5;	// 0x00014d24 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1acc to 5;	// 0x00014d34 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1ad4 to 5;	// 0x00014d3c () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1ae0 to 5;	// 0x00014d48 () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1af4 to 5;	// 0x00014d5c () switch-like branch in "asinf32x"
+
+multibranch "asinf32x" + 0x1b08 to 5;	// 0x00014d70 () switch-like branch in "asinf32x"
+
+multibranch "__cos" + 0x2dbc to 5;	// 0x00014cb8 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dc0 to 5;	// 0x00014cbc () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dc4 to 5;	// 0x00014cc0 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dc8 to 5;	// 0x00014cc4 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dcc to 5;	// 0x00014cc8 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dd0 to 5;	// 0x00014ccc () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dd4 to 5;	// 0x00014cd0 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2dd8 to 5;	// 0x00014cd4 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2ddc to 5;	// 0x00014cd8 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2de0 to 5;	// 0x00014cdc () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2de8 to 5;	// 0x00014ce4 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2df0 to 5;	// 0x00014cec () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2df8 to 5;	// 0x00014cf4 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e00 to 5;	// 0x00014cfc () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e08 to 5;	// 0x00014d04 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e28 to 5;	// 0x00014d24 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e38 to 5;	// 0x00014d34 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e40 to 5;	// 0x00014d3c () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e4c to 5;	// 0x00014d48 () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e60 to 5;	// 0x00014d5c () switch-like branch in "__cos"
+
+multibranch "__cos" + 0x2e74 to 5;	// 0x00014d70 () switch-like branch in "__cos"
+
+multibranch "sinf64" + 0x40f4 to 5;	// 0x00014cb8 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x40f8 to 5;	// 0x00014cbc () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x40fc to 5;	// 0x00014cc0 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4100 to 5;	// 0x00014cc4 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4104 to 5;	// 0x00014cc8 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4108 to 5;	// 0x00014ccc () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x410c to 5;	// 0x00014cd0 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4110 to 5;	// 0x00014cd4 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4114 to 5;	// 0x00014cd8 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4118 to 5;	// 0x00014cdc () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4120 to 5;	// 0x00014ce4 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4128 to 5;	// 0x00014cec () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4130 to 5;	// 0x00014cf4 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4138 to 5;	// 0x00014cfc () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4140 to 5;	// 0x00014d04 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4160 to 5;	// 0x00014d24 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4170 to 5;	// 0x00014d34 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4178 to 5;	// 0x00014d3c () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4184 to 5;	// 0x00014d48 () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x4198 to 5;	// 0x00014d5c () switch-like branch in "sinf64"
+
+multibranch "sinf64" + 0x41ac to 5;	// 0x00014d70 () switch-like branch in "sinf64"
+
+multibranch "__vfprintf_internal" + 0x2b8 to 5;	// 0x0002247c () switch-like branch in "__vfprintf_internal"
+
+multicall "__vfprintf_internal" + 0x480 to 5;	// 0x00022644 () indirect call in "__vfprintf_internal"
+
+multibranch "__vfprintf_internal" + 0x33c to 5;	// 0x00022500 () switch-like branch in "__vfprintf_internal"
+
+multicall "__vfprintf_internal" + 0x1f94 to 5;	// 0x00024158 () indirect call in "__vfprintf_internal"
+
+multicall "__vfprintf_internal" + 0x20f4 to 5;	// 0x000242b8 () indirect call in "__vfprintf_internal"
+
+multibranch "__vfprintf_internal" + 0x1fe8 to 5;	// 0x000241ac () switch-like branch in "__vfprintf_internal"
+
+multibranch "__vfprintf_internal" + 0x207c to 5;	// 0x00024240 () switch-like branch in "__vfprintf_internal"
+
+multicall "__vfprintf_internal" + 0xf8 to 5;	// 0x000222bc () indirect call in "__vfprintf_internal"
+
+multibranch "__vfprintf_internal" + 0x518 to 5;	// 0x000226dc () switch-like branch in "__vfprintf_internal"
+
+multibranch "__libc_message" + 0x150 to 5;	// 0x00027c30 () switch-like branch in "__libc_message"
+
+multibranch "__ieee754_sqrt" + 0x718 to 5;	// 0x000178dc () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x71c to 5;	// 0x000178e0 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x724 to 5;	// 0x000178e8 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x72c to 5;	// 0x000178f0 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x734 to 5;	// 0x000178f8 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x73c to 5;	// 0x00017900 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x744 to 5;	// 0x00017908 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x74c to 5;	// 0x00017910 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x754 to 5;	// 0x00017918 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x75c to 5;	// 0x00017920 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x760 to 5;	// 0x00017924 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x764 to 5;	// 0x00017928 () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__ieee754_sqrt" + 0x8a8 to 5;	// 0x00017a6c () switch-like branch in "__ieee754_sqrt"
+
+multibranch "__aeabi_read_tp" + 0x4 to 5;	// 0x00019024 () switch-like branch in "__aeabi_read_tp"
+
+multibranch "__ieee754_atan2" + 0x1d78 to 5;	// 0x000178dc () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1d7c to 5;	// 0x000178e0 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1d84 to 5;	// 0x000178e8 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1d8c to 5;	// 0x000178f0 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1d94 to 5;	// 0x000178f8 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1d9c to 5;	// 0x00017900 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1da4 to 5;	// 0x00017908 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1dac to 5;	// 0x00017910 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1db4 to 5;	// 0x00017918 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1dbc to 5;	// 0x00017920 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1dc0 to 5;	// 0x00017924 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1dc4 to 5;	// 0x00017928 () switch-like branch in "__ieee754_atan2"
+
+multibranch "__ieee754_atan2" + 0x1f08 to 5;	// 0x00017a6c () switch-like branch in "__ieee754_atan2"
+
+multibranch "__branred" + 0xa30 to 5;	// 0x00013e60 () switch-like branch in "__branred"
+
+multibranch "__branred" + 0xa40 to 5;	// 0x00013e70 () switch-like branch in "__branred"
+
+multibranch "__branred" + 0xa64 to 5;	// 0x00013e94 () switch-like branch in "__branred"
+
+multibranch "__branred" + 0xa68 to 5;	// 0x00013e98 () switch-like branch in "__branred"
+
+multibranch "__branred" + 0xa70 to 5;	// 0x00013ea0 () switch-like branch in "__branred"
+
+multibranch "__branred" + 0xa88 to 5;	// 0x00013eb8 () switch-like branch in "__branred"
+
+multibranch "feupdateenv" + 0x3b0c to 5;	// 0x00017a6c () switch-like branch in "feupdateenv"
+
+multibranch "__libc_cleanup_pop_restore" + 0x1048 to 5;	// 0x0002e724 () switch-like branch in "__libc_cleanup_pop_restore"
+
+multibranch "__lll_lock_wake_private" + 0x14 to 5;	// 0x0002d858 () switch-like branch in "__lll_lock_wake_private"
+
+multibranch "__lll_lock_wait_private" + 0x68 to 5;	// 0x0002d770 () switch-like branch in "__lll_lock_wait_private"
+
+multibranch "__lll_lock_wait_private" + 0x38 to 5;	// 0x0002d740 () switch-like branch in "__lll_lock_wait_private"
+
+multibranch "printf_positional" + 0x218c to 5;	// 0x0002247c () switch-like branch in "printf_positional"
+
+multicall "printf_positional" + 0x2354 to 5;	// 0x00022644 () indirect call in "printf_positional"
+
+multibranch "printf_positional" + 0x2210 to 5;	// 0x00022500 () switch-like branch in "printf_positional"
+
+multicall "printf_positional" + 0x3e68 to 5;	// 0x00024158 () indirect call in "printf_positional"
+
+multicall "printf_positional" + 0x3fc8 to 5;	// 0x000242b8 () indirect call in "printf_positional"
+
+multibranch "printf_positional" + 0x3ebc to 5;	// 0x000241ac () switch-like branch in "printf_positional"
+
+multibranch "printf_positional" + 0x3f50 to 5;	// 0x00024240 () switch-like branch in "printf_positional"
+
+multicall "printf_positional" + 0x1fcc to 5;	// 0x000222bc () indirect call in "printf_positional"
+
+multibranch "printf_positional" + 0x23ec to 5;	// 0x000226dc () switch-like branch in "printf_positional"
+
+multicall "printf_positional" + 0x1c74 to 5;	// 0x00021f64 () indirect call in "printf_positional"
+
+multibranch "printf_positional" + 0x2ac to 5;	// 0x0002059c () switch-like branch in "printf_positional"
+
+multibranch "printf_positional" + 0x800 to 5;	// 0x00020af0 () switch-like branch in "printf_positional"
+
+multicall "printf_positional" + 0x8c4 to 5;	// 0x00020bb4 () indirect call in "printf_positional"
+
+multicall "printf_positional" + 0x10c8 to 5;	// 0x000213b8 () indirect call in "printf_positional"
+
+multicall "printf_positional" + 0x24c to 5;	// 0x0002053c () indirect call in "printf_positional"
+
+multibranch "__malloc" + 0xfc to 5;	// 0x0003367c () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0xb0 to 5;	// 0x00033630 () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x37c to 5;	// 0x000338fc () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x384 to 5;	// 0x00033904 () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x698 to 5;	// 0x00033c18 () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x6b0 to 5;	// 0x00033c30 () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x458 to 5;	// 0x000339d8 () switch-like branch in "__malloc"
+
+multibranch "__malloc" + 0x408 to 5;	// 0x00033988 () switch-like branch in "__malloc"
+
+multibranch "realloc" + 0xfffff74c to 5;	// 0x0003367c () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffff700 to 5;	// 0x00033630 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffff9cc to 5;	// 0x000338fc () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffff9d4 to 5;	// 0x00033904 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffffce8 to 5;	// 0x00033c18 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffffd00 to 5;	// 0x00033c30 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffffaa8 to 5;	// 0x000339d8 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xfffffa58 to 5;	// 0x00033988 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0x114 to 5;	// 0x00034044 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0x2c8 to 5;	// 0x000341f8 () switch-like branch in "realloc"
+
+multibranch "realloc" + 0x31c to 5;	// 0x0003424c () switch-like branch in "realloc"
+
+multibranch "realloc" + 0xc4 to 5;	// 0x00033ff4 () switch-like branch in "realloc"
+
+multibranch "memcpy" + 0x40 to 5;	// 0x00036cc0 () switch-like branch in "memcpy"
+
+multibranch "abort" + 0x32c to 5;	// 0x0001049c () switch-like branch in "abort"
+
+multibranch "abort" + 0x178 to 5;	// 0x000102e8 () switch-like branch in "abort"
+
+multibranch "abort" + 0x118 to 5;	// 0x00010288 () switch-like branch in "abort"
+
+multibranch "abort" + 0x60 to 5;	// 0x000101d0 () switch-like branch in "abort"
+
+multibranch "__overflow" + 0x6c to 5;	// 0x0002b270 () switch-like branch in "__overflow"
+
+multibranch "__overflow" + 0x50 to 5;	// 0x0002b254 () switch-like branch in "__overflow"
+
+multibranch "__parse_one_specmb" + 0x58 to 5;	// 0x00024414 () switch-like branch in "__parse_one_specmb"
+
+multibranch "__parse_one_specmb" + 0x1b0 to 5;	// 0x0002456c () switch-like branch in "__parse_one_specmb"
+
+multibranch "__parse_one_specmb" + 0x2c8 to 5;	// 0x00024684 () switch-like branch in "__parse_one_specmb"
+
+multicall "__parse_one_specmb" + 0x6f0 to 5;	// 0x00024aac () indirect call in "__parse_one_specmb"
+
+multibranch "ptmalloc_init.part.0" + 0x334 to 5;	// 0x0002f858 () switch-like branch in "ptmalloc_init.part.0"
+
+multibranch "ptmalloc_init.part.0" + 0x37c to 5;	// 0x0002f8a0 () switch-like branch in "ptmalloc_init.part.0"
+
+multibranch "ptmalloc_init.part.0" + 0x2ac to 5;	// 0x0002f7d0 () switch-like branch in "ptmalloc_init.part.0"
+
+multibranch "_int_malloc" + 0xfc8 to 5;	// 0x00032c98 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfcc to 5;	// 0x00032c9c () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfd0 to 5;	// 0x00032ca0 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfd4 to 5;	// 0x00032ca4 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfdc to 5;	// 0x00032cac () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfe0 to 5;	// 0x00032cb0 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfe4 to 5;	// 0x00032cb4 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xfe8 to 5;	// 0x00032cb8 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xff4 to 5;	// 0x00032cc4 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0xffc to 5;	// 0x00032ccc () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1004 to 5;	// 0x00032cd4 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1008 to 5;	// 0x00032cd8 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1010 to 5;	// 0x00032ce0 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x101c to 5;	// 0x00032cec () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1028 to 5;	// 0x00032cf8 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1030 to 5;	// 0x00032d00 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1038 to 5;	// 0x00032d08 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1044 to 5;	// 0x00032d14 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1054 to 5;	// 0x00032d24 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x1064 to 5;	// 0x00032d34 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x10f8 to 5;	// 0x00032dc8 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x10ac to 5;	// 0x00032d7c () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x3d0 to 5;	// 0x000320a0 () switch-like branch in "_int_malloc"
+
+multibranch "_int_malloc" + 0x350 to 5;	// 0x00032020 () switch-like branch in "_int_malloc"
+
+multibranch "get_free_list" + 0xd8 to 5;	// 0x0002f858 () switch-like branch in "get_free_list"
+
+multibranch "get_free_list" + 0x120 to 5;	// 0x0002f8a0 () switch-like branch in "get_free_list"
+
+multibranch "get_free_list" + 0x50 to 5;	// 0x0002f7d0 () switch-like branch in "get_free_list"
+
+multibranch "arena_get_retry" + 0xc0 to 5;	// 0x000302f8 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xffffff50 to 5;	// 0x00030188 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffdb8 to 5;	// 0x0002fff0 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffd8c to 5;	// 0x0002ffc4 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffa3c to 5;	// 0x0002fc74 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffb3c to 5;	// 0x0002fd74 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffa8c to 5;	// 0x0002fcc4 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffbfc to 5;	// 0x0002fe34 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0xfffffc3c to 5;	// 0x0002fe74 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0x78 to 5;	// 0x000302b0 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get_retry" + 0x38 to 5;	// 0x00030270 () switch-like branch in "arena_get_retry"
+
+multibranch "arena_get2.part.0" + 0x5b4 to 5;	// 0x00030188 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0x41c to 5;	// 0x0002fff0 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0x3f0 to 5;	// 0x0002ffc4 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0xa0 to 5;	// 0x0002fc74 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0x1a0 to 5;	// 0x0002fd74 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0xf0 to 5;	// 0x0002fcc4 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0x260 to 5;	// 0x0002fe34 () switch-like branch in "arena_get2.part.0"
+
+multibranch "arena_get2.part.0" + 0x2a0 to 5;	// 0x0002fe74 () switch-like branch in "arena_get2.part.0"
+
+multibranch "tcache_init.part.0" + 0x8c to 5;	// 0x00032dc8 () switch-like branch in "tcache_init.part.0"
+
+multibranch "tcache_init.part.0" + 0x40 to 5;	// 0x00032d7c () switch-like branch in "tcache_init.part.0"
+
+multibranch "_int_memalign" + 0x1cc to 5;	// 0x000332d0 () switch-like branch in "_int_memalign"
+
+multibranch "munmap_chunk" + 0x84 to 5;	// 0x0002eb78 () switch-like branch in "munmap_chunk"
+
+multibranch "munmap_chunk" + 0xc0 to 5;	// 0x0002ebb4 () switch-like branch in "munmap_chunk"
+
+multibranch "munmap_chunk" + 0xba84 to 5;	// 0x0003a578 () switch-like branch in "munmap_chunk"
+
+multibranch "_int_free" + 0x1474 to 5;	// 0x00031c84 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x1488 to 5;	// 0x00031c98 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x14b0 to 5;	// 0x00031cc0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2488 to 5;	// 0x00032c98 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x248c to 5;	// 0x00032c9c () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2490 to 5;	// 0x00032ca0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2494 to 5;	// 0x00032ca4 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x249c to 5;	// 0x00032cac () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24a0 to 5;	// 0x00032cb0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24a4 to 5;	// 0x00032cb4 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24a8 to 5;	// 0x00032cb8 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24b4 to 5;	// 0x00032cc4 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24bc to 5;	// 0x00032ccc () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24c4 to 5;	// 0x00032cd4 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24c8 to 5;	// 0x00032cd8 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24d0 to 5;	// 0x00032ce0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24dc to 5;	// 0x00032cec () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24e8 to 5;	// 0x00032cf8 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24f0 to 5;	// 0x00032d00 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x24f8 to 5;	// 0x00032d08 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2504 to 5;	// 0x00032d14 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2514 to 5;	// 0x00032d24 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x2524 to 5;	// 0x00032d34 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x25b8 to 5;	// 0x00032dc8 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x256c to 5;	// 0x00032d7c () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x1890 to 5;	// 0x000320a0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x1810 to 5;	// 0x00032020 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x610 to 5;	// 0x00030e20 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0xffffd048 to 5;	// 0x0002d858 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x4a0 to 5;	// 0x00030cb0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x718 to 5;	// 0x00030f28 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x6d0 to 5;	// 0x00030ee0 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0xffffe368 to 5;	// 0x0002eb78 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0xffffe3a4 to 5;	// 0x0002ebb4 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x9d68 to 5;	// 0x0003a578 () switch-like branch in "_int_free"
+
+multibranch "_int_free" + 0x510 to 5;	// 0x00030d20 () switch-like branch in "_int_free"
+
+multibranch "_int_realloc" + 0x234 to 5;	// 0x000330d8 () switch-like branch in "_int_realloc"
+
+multibranch "_int_realloc" + 0x238 to 5;	// 0x000330dc () switch-like branch in "_int_realloc"
+
+multibranch "_int_realloc" + 0x240 to 5;	// 0x000330e4 () switch-like branch in "_int_realloc"
+
+multibranch "_int_realloc" + 0x248 to 5;	// 0x000330ec () switch-like branch in "_int_realloc"
+
+multibranch "_int_realloc" + 0x258 to 5;	// 0x000330fc () switch-like branch in "_int_realloc"
+
+multibranch "_int_realloc" + 0x42c to 5;	// 0x000332d0 () switch-like branch in "_int_realloc"
+
+multibranch "mremap" + 0x40 to 5;	// 0x0003b8a8 () switch-like branch in "mremap"
+
+multibranch "__madvise" + 0x8 to 5;	// 0x0003a5b8 () switch-like branch in "__madvise"
+
+multibranch "_Unwind_GetDataRelBase" + 0x94 to 5;	// 0x0001049c () switch-like branch in "_Unwind_GetDataRelBase"
+
+multicall "__libc_start_main" + 0x2b4 to 5;	// 0x00018b9c () indirect call in "__libc_start_main"
+
+multicall "__libc_start_main" + 0x270 to 5;	// 0x00018b58 () indirect call in "__libc_start_main"
+
+multicall "__libc_start_main" + 0xb4 to 5;	// 0x0001899c () indirect call in "__libc_start_main"
+
+noreturn "_exit";
+multibranch "_exit" + 0xc to 5;	// 0x00038314 () switch-like branch in "_exit"
+
+multibranch "sigaction" + 0xd0 to 5;	// 0x0004d660 () switch-like branch in "sigaction"
+
+multibranch "__udivsi3" + 0x34 to 5;	// 0x00073460 () switch-like branch in "__udivsi3"
+
+multibranch "__assert_fail_base" + 0x14c to 5;	// 0x00019174 () switch-like branch in "__assert_fail_base"
+
+multibranch "getrandom" + 0x5c to 5;	// 0x0004e3f4 () switch-like branch in "getrandom"
+
+multibranch "getrandom" + 0x24 to 5;	// 0x0004e3bc () switch-like branch in "getrandom"
+
+multibranch "__tunable_get_val" + 0x20 to 5;	// 0x0003d884 () switch-like branch in "__tunable_get_val"
+
+multibranch "__tunable_get_val" + 0x88 to 5;	// 0x0003d8ec () switch-like branch in "__tunable_get_val"
+
+multibranch "__mmap" + 0x24 to 5;	// 0x0003a470 () switch-like branch in "__mmap"
+
+multibranch "mprotect" + 0x8 to 5;	// 0x0003a598 () switch-like branch in "mprotect"
+
+multibranch "munmap" + 0x8 to 5;	// 0x0003a578 () switch-like branch in "munmap"
+
+multibranch "detach_arena.part.0" + 0x2d0 to 5;	// 0x0002ef4c () switch-like branch in "detach_arena.part.0"
+
+multibranch "detach_arena.part.0" + 0x740 to 5;	// 0x0002f3bc () switch-like branch in "detach_arena.part.0"
+
+multibranch "detach_arena.part.0" + 0xbdc to 5;	// 0x0002f858 () switch-like branch in "detach_arena.part.0"
+
+multibranch "detach_arena.part.0" + 0xc24 to 5;	// 0x0002f8a0 () switch-like branch in "detach_arena.part.0"
+
+multibranch "detach_arena.part.0" + 0xb54 to 5;	// 0x0002f7d0 () switch-like branch in "detach_arena.part.0"
+
+multibranch "detach_arena.part.0" + 0xec to 5;	// 0x0002ed68 () switch-like branch in "detach_arena.part.0"
+
+multibranch "__clock_gettime64" + 0xc0 to 5;	// 0x0003816c () switch-like branch in "__clock_gettime64"
+
+multicall "__clock_gettime64" + 0x9c to 5;	// 0x00038148 () indirect call in "__clock_gettime64"
+
+multibranch "__clock_gettime64" + 0x268 to 5;	// 0x00038314 () switch-like branch in "__clock_gettime64"
+
+multicall "__clock_gettime64" + 0x40 to 5;	// 0x000380ec () indirect call in "__clock_gettime64"
+
+multibranch "sysmalloc" + 0x908 to 5;	// 0x00031c84 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x91c to 5;	// 0x00031c98 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x944 to 5;	// 0x00031cc0 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x191c to 5;	// 0x00032c98 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1920 to 5;	// 0x00032c9c () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1924 to 5;	// 0x00032ca0 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1928 to 5;	// 0x00032ca4 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1930 to 5;	// 0x00032cac () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1934 to 5;	// 0x00032cb0 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1938 to 5;	// 0x00032cb4 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x193c to 5;	// 0x00032cb8 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1948 to 5;	// 0x00032cc4 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1950 to 5;	// 0x00032ccc () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1958 to 5;	// 0x00032cd4 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x195c to 5;	// 0x00032cd8 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1964 to 5;	// 0x00032ce0 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1970 to 5;	// 0x00032cec () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x197c to 5;	// 0x00032cf8 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1984 to 5;	// 0x00032d00 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x198c to 5;	// 0x00032d08 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1998 to 5;	// 0x00032d14 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x19a8 to 5;	// 0x00032d24 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x19b8 to 5;	// 0x00032d34 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1a4c to 5;	// 0x00032dc8 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0x1a00 to 5;	// 0x00032d7c () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0xd24 to 5;	// 0x000320a0 () switch-like branch in "sysmalloc"
+
+multibranch "sysmalloc" + 0xca4 to 5;	// 0x00032020 () switch-like branch in "sysmalloc"
+
+multibranch "unlink_chunk.constprop.0" + 0x128 to 5;	// 0x0002f3bc () switch-like branch in "unlink_chunk.constprop.0"
+
+multibranch "unlink_chunk.constprop.0" + 0x5c4 to 5;	// 0x0002f858 () switch-like branch in "unlink_chunk.constprop.0"
+
+multibranch "unlink_chunk.constprop.0" + 0x60c to 5;	// 0x0002f8a0 () switch-like branch in "unlink_chunk.constprop.0"
+
+multibranch "unlink_chunk.constprop.0" + 0x53c to 5;	// 0x0002f7d0 () switch-like branch in "unlink_chunk.constprop.0"
+
+multibranch "malloc_consolidate" + 0x44 to 5;	// 0x0002f3bc () switch-like branch in "malloc_consolidate"
+
+multibranch "malloc_consolidate" + 0x4e0 to 5;	// 0x0002f858 () switch-like branch in "malloc_consolidate"
+
+multibranch "malloc_consolidate" + 0x528 to 5;	// 0x0002f8a0 () switch-like branch in "malloc_consolidate"
+
+multibranch "malloc_consolidate" + 0x458 to 5;	// 0x0002f7d0 () switch-like branch in "malloc_consolidate"
+
+multicall "__fxprintf" + 0x2ac to 5;	// 0x00025130 () indirect call in "__fxprintf"
+
+multibranch "__fxprintf" + 0x33c to 5;	// 0x000251c0 () switch-like branch in "__fxprintf"
+
+multibranch "__fxprintf" + 0x2ec to 5;	// 0x00025170 () switch-like branch in "__fxprintf"
+
+multibranch "__fxprintf" + 0x45c to 5;	// 0x000252e0 () switch-like branch in "__fxprintf"
+
+multibranch "__fxprintf" + 0x3e8 to 5;	// 0x0002526c () switch-like branch in "__fxprintf"
+
+multibranch "__fxprintf" + 0x19c to 5;	// 0x00025020 () switch-like branch in "__fxprintf"
+
+multibranch "__fxprintf" + 0x104 to 5;	// 0x00024f88 () switch-like branch in "__fxprintf"
+
+multicall "_IO_fflush" + 0x70b0 to 5;	// 0x0002c494 () indirect call in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x7120 to 5;	// 0x0002c504 () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x7048 to 5;	// 0x0002c42c () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x7194 to 5;	// 0x0002c578 () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x6f94 to 5;	// 0x0002c378 () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x6df8 to 5;	// 0x0002c1dc () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x6e70 to 5;	// 0x0002c254 () switch-like branch in "_IO_fflush"
+
+multicall "_IO_fflush" + 0x6ce0 to 5;	// 0x0002c0c4 () indirect call in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x6d6c to 5;	// 0x0002c150 () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x6c4c to 5;	// 0x0002c030 () switch-like branch in "_IO_fflush"
+
+multicall "_IO_fflush" + 0xa8 to 5;	// 0x0002548c () indirect call in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x100 to 5;	// 0x000254e4 () switch-like branch in "_IO_fflush"
+
+multibranch "_IO_fflush" + 0x54 to 5;	// 0x00025438 () switch-like branch in "_IO_fflush"
+
+multibranch "__get_nprocs_sched" + 0x40 to 5;	// 0x0003b37c () switch-like branch in "__get_nprocs_sched"
+
+multibranch "__open64_nocancel" + 0x50 to 5;	// 0x0005e598 () switch-like branch in "__open64_nocancel"
+
+multibranch "__close_nocancel" + 0x8 to 5;	// 0x00039da0 () switch-like branch in "__close_nocancel"
+
+multibranch "strstr" + 0xaf8 to 5;	// 0x00036cc0 () switch-like branch in "strstr"
+
+multibranch "strstr" + 0x76c to 5;	// 0x00036934 () switch-like branch in "strstr"
+
+multibranch "__pread64_nocancel" + 0x14 to 5;	// 0x0005e710 () switch-like branch in "__pread64_nocancel"
+
+multibranch "__getdents64" + 0x14 to 5;	// 0x0005dda0 () switch-like branch in "__getdents64"
+
+multibranch "sysmalloc_mmap.constprop.0" + 0xb4 to 5;	// 0x00030548 () switch-like branch in "sysmalloc_mmap.constprop.0"
+
+multibranch "sysmalloc_mmap.constprop.0" + 0x138 to 5;	// 0x000305cc () switch-like branch in "sysmalloc_mmap.constprop.0"
+
+multibranch "sysmalloc_mmap.constprop.0" + 0x17c to 5;	// 0x00030610 () switch-like branch in "sysmalloc_mmap.constprop.0"
+
+multibranch "sysmalloc_mmap.constprop.0" + 0xf8 to 5;	// 0x0003058c () switch-like branch in "sysmalloc_mmap.constprop.0"
+
+multibranch "__open_nocancel" + 0x4c to 5;	// 0x0003a01c () switch-like branch in "__open_nocancel"
+
+multibranch "__read_nocancel" + 0x8 to 5;	// 0x0003a0b4 () switch-like branch in "__read_nocancel"
+
+multibranch "_dl_aux_init" + 0x68 to 5;	// 0x0003ddac () switch-like branch in "_dl_aux_init"
+
+multibranch "__tunables_init" + 0x5fc to 5;	// 0x0003d6ac () switch-like branch in "__tunables_init"
+
+multibranch "__libc_setup_tls" + 0x14c to 5;	// 0x00018ed8 () switch-like branch in "__libc_setup_tls"
+
+multibranch "__cxa_atexit" + 0xffffff90 to 5;	// 0x0001f06c () switch-like branch in "__cxa_atexit"
+
+multibranch "__cxa_atexit" + 0xffffff28 to 5;	// 0x0001f004 () switch-like branch in "__cxa_atexit"
+
+multibranch "__cxa_atexit" + 0xfffffeb8 to 5;	// 0x0001ef94 () switch-like branch in "__cxa_atexit"
+
+multibranch "_dl_debug_initialize" + 0x88 to 5;	// 0x0003c288 () switch-like branch in "_dl_debug_initialize"
+
+multibranch "__libc_start_call_main" + 0x90 to 5;	// 0x000188a8 () switch-like branch in "__libc_start_call_main"
+
+multibranch "__libc_start_call_main" + 0xb8 to 5;	// 0x000188d0 () switch-like branch in "__libc_start_call_main"
+
+multicall "__libc_start_call_main" + 0x5c to 5;	// 0x00018874 () indirect call in "__libc_start_call_main"
+
+multibranch "__pthread_kill" + 0xffffffa4 to 5;	// 0x0005aafc () switch-like branch in "__pthread_kill"
+
+multibranch "__pthread_kill" + 0xfffffe9c to 5;	// 0x0005a9f4 () switch-like branch in "__pthread_kill"
+
+multibranch "__pthread_sigmask" + 0x5c to 5;	// 0x0005c2dc () switch-like branch in "__pthread_sigmask"
+
+multibranch "__uflow" + 0xd4 to 5;	// 0x0002b4b8 () switch-like branch in "__uflow"
+
+multicall "_IO_sputbackc" + 0x68 to 5;	// 0x0002be9c () indirect call in "_IO_sputbackc"
+
+multibranch "write" + 0x5c to 5;	// 0x000394a0 () switch-like branch in "write"
+
+multibranch "write" + 0x24 to 5;	// 0x00039468 () switch-like branch in "write"
+
+multibranch "strcpy" + 0x14cc to 5;	// 0x00036cc0 () switch-like branch in "strcpy"
+
+multibranch "___pthread_rwlock_unlock" + 0x160 to 5;	// 0x0002defc () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x204 to 5;	// 0x0002dfa0 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x11c to 5;	// 0x0002deb8 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x244 to 5;	// 0x0002dfe0 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x274 to 5;	// 0x0002e010 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x1ac to 5;	// 0x0002df48 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x98 to 5;	// 0x0002de34 () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_unlock" + 0x70 to 5;	// 0x0002de0c () switch-like branch in "___pthread_rwlock_unlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x2d0 to 5;	// 0x0002dcd4 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x328 to 5;	// 0x0002dd2c () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x368 to 5;	// 0x0002dd6c () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x150 to 5;	// 0x0002db54 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x1a0 to 5;	// 0x0002dba4 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x25c to 5;	// 0x0002dc60 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x284 to 5;	// 0x0002dc88 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x1ec to 5;	// 0x0002dbf0 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0x54 to 5;	// 0x0002da58 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multibranch "___pthread_rwlock_rdlock" + 0xc0 to 5;	// 0x0002dac4 () switch-like branch in "___pthread_rwlock_rdlock"
+
+multicall "tfind" + 0x3c to 5;	// 0x0003aacc () indirect call in "tfind"
+
+multibranch "_nl_find_domain" + 0x5a4 to 5;	// 0x0001ad58 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1008 to 5;	// 0x0001b7bc () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x10d8 to 5;	// 0x0001b88c () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1184 to 5;	// 0x0001b938 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0xf88 to 5;	// 0x0001b73c () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1d24 to 5;	// 0x0001c4d8 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1cac to 5;	// 0x0001c460 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1c24 to 5;	// 0x0001c3d8 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0xee8 to 5;	// 0x0001b69c () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1adc to 5;	// 0x0001c290 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x1a64 to 5;	// 0x0001c218 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x19dc to 5;	// 0x0001c190 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0xe0c to 5;	// 0x0001b5c0 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0xd14 to 5;	// 0x0001b4c8 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x980 to 5;	// 0x0001b134 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_domain" + 0x320 to 5;	// 0x0001aad4 () switch-like branch in "_nl_find_domain"
+
+multibranch "_nl_find_msg" + 0x78c to 5;	// 0x00019c44 () switch-like branch in "_nl_find_msg"
+
+multibranch "_nl_find_msg" + 0x96c to 5;	// 0x00019e24 () switch-like branch in "_nl_find_msg"
+
+multibranch "_nl_find_msg" + 0x8d4 to 5;	// 0x00019d8c () switch-like branch in "_nl_find_msg"
+
+multibranch "_nl_find_msg" + 0x62c to 5;	// 0x00019ae4 () switch-like branch in "_nl_find_msg"
+
+multibranch "_nl_find_msg" + 0x840 to 5;	// 0x00019cf8 () switch-like branch in "_nl_find_msg"
+
+multibranch "_nl_find_msg" + 0x7f4 to 5;	// 0x00019cac () switch-like branch in "_nl_find_msg"
+
+multibranch "plural_eval" + 0x14 to 5;	// 0x00019294 () switch-like branch in "plural_eval"
+
+multibranch "___pthread_rwlock_wrlock" + 0x4c to 5;	// 0x0002e0bc () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0xec to 5;	// 0x0002e15c () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x234 to 5;	// 0x0002e2a4 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x1cc to 5;	// 0x0002e23c () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x2bc to 5;	// 0x0002e32c () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x294 to 5;	// 0x0002e304 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x208 to 5;	// 0x0002e278 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x304 to 5;	// 0x0002e374 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x570 to 5;	// 0x0002e5e0 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x33c to 5;	// 0x0002e3ac () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x134 to 5;	// 0x0002e1a4 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0xa4 to 5;	// 0x0002e114 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x3f8 to 5;	// 0x0002e468 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x3b4 to 5;	// 0x0002e424 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x5f0 to 5;	// 0x0002e660 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x470 to 5;	// 0x0002e4e0 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x538 to 5;	// 0x0002e5a8 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multibranch "___pthread_rwlock_wrlock" + 0x500 to 5;	// 0x0002e570 () switch-like branch in "___pthread_rwlock_wrlock"
+
+multicall "__tsearch" + 0x48 to 5;	// 0x0003a94c () indirect call in "__tsearch"
+
+multibranch "getcwd" + 0x80 to 5;	// 0x0003962c () switch-like branch in "getcwd"
+
+multibranch "__pthread_enable_asynccancel" + 0x64 to 5;	// 0x0005a594 () switch-like branch in "__pthread_enable_asynccancel"
+
+multibranch "fprintf" + 0x144 to 5;	// 0x00053444 () switch-like branch in "fprintf"
+
+multibranch "fprintf" + 0xfffda558 to 5;	// 0x0002d858 () switch-like branch in "fprintf"
+
+multicall "_IO_fputs" + 0xcc to 5;	// 0x000589c4 () indirect call in "_IO_fputs"
+
+multibranch "_IO_fputs" + 0x144 to 5;	// 0x00058a3c () switch-like branch in "_IO_fputs"
+
+multibranch "_IO_fputs" + 0x5c to 5;	// 0x00058954 () switch-like branch in "_IO_fputs"
+
+multibranch "__vfxprintf" + 0xe8 to 5;	// 0x00024e30 () switch-like branch in "__vfxprintf"
+
+multibranch "__vfxprintf" + 0x60 to 5;	// 0x00024da8 () switch-like branch in "__vfxprintf"
+
+multibranch "locked_vfxprintf" + 0x280 to 5;	// 0x00024e30 () switch-like branch in "locked_vfxprintf"
+
+multibranch "locked_vfxprintf" + 0x1f8 to 5;	// 0x00024da8 () switch-like branch in "locked_vfxprintf"
+
+multibranch "_IO_un_link" + 0xffffff0c to 5;	// 0x0002ac84 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xffffffdc to 5;	// 0x0002ad54 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xffffffe0 to 5;	// 0x0002ad58 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffff0 to 5;	// 0x0002ad68 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffff4 to 5;	// 0x0002ad6c () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffffc to 5;	// 0x0002ad74 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffe4c to 5;	// 0x0002abc4 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffd58 to 5;	// 0x0002aad0 () switch-like branch in "_IO_un_link"
+
+multibranch "_IO_un_link" + 0xfffffce8 to 5;	// 0x0002aa60 () switch-like branch in "_IO_un_link"
+
+multicall "__gconv_release_step" + 0x784 to 5;	// 0x0003fe98 () indirect call in "__gconv_release_step"
+
+multicall "__gconv_release_step" + 0x1e8 to 5;	// 0x0003f8fc () indirect call in "__gconv_release_step"
+
+multicall "__gconv_release_step" + 0x50 to 5;	// 0x0003f764 () indirect call in "__gconv_release_step"
+
+multicall "_IO_file_close_it" + 0x78 to 5;	// 0x00029d48 () indirect call in "_IO_file_close_it"
+
+multicall "_IO_flush_all_lockp" + 0x4f4 to 5;	// 0x0002c494 () indirect call in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x564 to 5;	// 0x0002c504 () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x48c to 5;	// 0x0002c42c () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x5d8 to 5;	// 0x0002c578 () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x3d8 to 5;	// 0x0002c378 () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x23c to 5;	// 0x0002c1dc () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x2b4 to 5;	// 0x0002c254 () switch-like branch in "_IO_flush_all_lockp"
+
+multicall "_IO_flush_all_lockp" + 0x124 to 5;	// 0x0002c0c4 () indirect call in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x1b0 to 5;	// 0x0002c150 () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "_IO_flush_all_lockp" + 0x90 to 5;	// 0x0002c030 () switch-like branch in "_IO_flush_all_lockp"
+
+multibranch "__sched_yield" + 0x8 to 5;	// 0x00038cb8 () switch-like branch in "__sched_yield"
+
+multibranch "__brk" + 0xc to 5;	// 0x0003a2a0 () switch-like branch in "__brk"
+
+multibranch "memcmp" + 0x81c to 5;	// 0x00036cc0 () switch-like branch in "memcmp"
+
+multibranch "memcmp" + 0x490 to 5;	// 0x00036934 () switch-like branch in "memcmp"
+
+multibranch "geteuid" + 0x8 to 5;	// 0x0005e0b8 () switch-like branch in "geteuid"
+
+multibranch "__getuid" + 0x8 to 5;	// 0x0005e098 () switch-like branch in "__getuid"
+
+multibranch "getegid" + 0x8 to 5;	// 0x0005e0f8 () switch-like branch in "getegid"
+
+multibranch "__getgid" + 0x8 to 5;	// 0x0005e0d8 () switch-like branch in "__getgid"
+
+multibranch "uname" + 0x8 to 5;	// 0x0005e058 () switch-like branch in "uname"
+
+multibranch "__getrlimit" + 0x8 to 5;	// 0x0003a258 () switch-like branch in "__getrlimit"
+
+multibranch "__pthread_tunables_init" + 0xe0 to 5;	// 0x0005ac80 () switch-like branch in "__pthread_tunables_init"
+
+multibranch "_dl_non_dynamic_init" + 0x2961c to 5;	// 0x0006781c () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x28728 to 5;	// 0x00066928 () switch-like branch in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x28860 to 5;	// 0x00066a60 () indirect call in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x286d8 to 5;	// 0x000668d8 () indirect call in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x28880 to 5;	// 0x00066a80 () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x284b8 to 5;	// 0x000666b8 () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x292e0 to 5;	// 0x000674e0 () switch-like branch in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x29490 to 5;	// 0x00067690 () indirect call in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x29290 to 5;	// 0x00067490 () indirect call in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x294b0 to 5;	// 0x000676b0 () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x290cc to 5;	// 0x000672cc () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x29910 to 5;	// 0x00067b10 () switch-like branch in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x29b58 to 5;	// 0x00067d58 () indirect call in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x298c4 to 5;	// 0x00067ac4 () indirect call in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x29b78 to 5;	// 0x00067d78 () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x297c0 to 5;	// 0x000679c0 () switch-like branch in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x29eec to 5;	// 0x000680ec () indirect call in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x28c10 to 5;	// 0x00066e10 () switch-like branch in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x291ac to 5;	// 0x000673ac () indirect call in "_dl_non_dynamic_init"
+
+multicall "_dl_non_dynamic_init" + 0x28bc4 to 5;	// 0x00066dc4 () indirect call in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x291cc to 5;	// 0x000673cc () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0x28afc to 5;	// 0x00066cfc () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0xa8c to 5;	// 0x0003ec8c () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "_dl_non_dynamic_init" + 0xa90 to 5;	// 0x0003ec90 () switch-like branch in "_dl_non_dynamic_init"
+
+multibranch "__fcntl64_nocancel" + 0x98 to 5;	// 0x00039e74 () switch-like branch in "__fcntl64_nocancel"
+
+multibranch "__fcntl64_nocancel" + 0x44 to 5;	// 0x00039e20 () switch-like branch in "__fcntl64_nocancel"
+
+multibranch "__fstat64_time64" + 0x14c to 5;	// 0x00038e90 () switch-like branch in "__fstat64_time64"
+
+multibranch "call_weak_fn" + 0x40 to 5;	// 0x0001049c () switch-like branch in "call_weak_fn"
+
+multicall "__nptl_deallocate_tsd" + 0xc0 to 5;	// 0x0002d944 () indirect call in "__nptl_deallocate_tsd"
+
+noreturn "exit";
+multicall "_IO_switch_to_get_mode" + 0x50 to 5;	// 0x0002b148 () indirect call in "_IO_switch_to_get_mode"
+
+multibranch "_nl_expand_alias" + 0x12c to 5;	// 0x0001cc90 () switch-like branch in "_nl_expand_alias"
+
+multibranch "_nl_expand_alias" + 0x3c to 5;	// 0x0001cba0 () switch-like branch in "_nl_expand_alias"
+
+multibranch "__libc_calloc" + 0x604 to 5;	// 0x00034c48 () switch-like branch in "__libc_calloc"
+
+multibranch "__libc_calloc" + 0x4c8 to 5;	// 0x00034b0c () switch-like branch in "__libc_calloc"
+
+multibranch "__libc_calloc" + 0x248 to 5;	// 0x0003488c () switch-like branch in "__libc_calloc"
+
+multibranch "__libc_calloc" + 0x98 to 5;	// 0x000346dc () switch-like branch in "__libc_calloc"
+
+multibranch "_nl_load_domain" + 0x2ec to 5;	// 0x0001ad58 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xd50 to 5;	// 0x0001b7bc () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xe20 to 5;	// 0x0001b88c () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xecc to 5;	// 0x0001b938 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xcd0 to 5;	// 0x0001b73c () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x1a6c to 5;	// 0x0001c4d8 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x19f4 to 5;	// 0x0001c460 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x196c to 5;	// 0x0001c3d8 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xc30 to 5;	// 0x0001b69c () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x1824 to 5;	// 0x0001c290 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x17ac to 5;	// 0x0001c218 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x1724 to 5;	// 0x0001c190 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xb54 to 5;	// 0x0001b5c0 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0xa5c to 5;	// 0x0001b4c8 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x6c8 to 5;	// 0x0001b134 () switch-like branch in "_nl_load_domain"
+
+multibranch "_nl_load_domain" + 0x68 to 5;	// 0x0001aad4 () switch-like branch in "_nl_load_domain"
+
+multibranch "__gconv" + 0x13ac to 5;	// 0x000407ec () switch-like branch in "__gconv"
+
+multicall "__gconv" + 0x131c to 5;	// 0x0004075c () indirect call in "__gconv"
+
+multibranch "__gconv" + 0x12a8 to 5;	// 0x000406e8 () switch-like branch in "__gconv"
+
+multicall "__gconv" + 0x17c to 5;	// 0x0003f5bc () indirect call in "__gconv"
+
+multicall "__gconv" + 0x108 to 5;	// 0x0003f548 () indirect call in "__gconv"
+
+multibranch "strdup" + 0x1310 to 5;	// 0x00036cc0 () switch-like branch in "strdup"
+
+multibranch "strcspn" + 0x14a0 to 5;	// 0x00036cc0 () switch-like branch in "strcspn"
+
+multibranch "__getpagesize" + 0xf0 to 5;	// 0x0003a470 () switch-like branch in "__getpagesize"
+
+multibranch "__vsnprintf_internal" + 0xf0 to 5;	// 0x0005a50c () switch-like branch in "__vsnprintf_internal"
+
+multibranch "__vfwprintf_internal" + 0x2d4 to 5;	// 0x00055fb8 () switch-like branch in "__vfwprintf_internal"
+
+multicall "__vfwprintf_internal" + 0x4a0 to 5;	// 0x00056184 () indirect call in "__vfwprintf_internal"
+
+multibranch "__vfwprintf_internal" + 0x358 to 5;	// 0x0005603c () switch-like branch in "__vfwprintf_internal"
+
+multicall "__vfwprintf_internal" + 0x21d4 to 5;	// 0x00057eb8 () indirect call in "__vfwprintf_internal"
+
+multicall "__vfwprintf_internal" + 0x2070 to 5;	// 0x00057d54 () indirect call in "__vfwprintf_internal"
+
+multibranch "__vfwprintf_internal" + 0x20c4 to 5;	// 0x00057da8 () switch-like branch in "__vfwprintf_internal"
+
+multibranch "__vfwprintf_internal" + 0x2158 to 5;	// 0x00057e3c () switch-like branch in "__vfwprintf_internal"
+
+multicall "__vfwprintf_internal" + 0x128 to 5;	// 0x00055e0c () indirect call in "__vfwprintf_internal"
+
+multibranch "__vfwprintf_internal" + 0x534 to 5;	// 0x00056218 () switch-like branch in "__vfwprintf_internal"
+
+multicall "__gconv_find_shlib" + 0xfffefc28 to 5;	// 0x0003a6a8 () indirect call in "__gconv_find_shlib"
+
+multicall "__gconv_find_shlib" + 0xfffefc44 to 5;	// 0x0003a6c4 () indirect call in "__gconv_find_shlib"
+
+multibranch "__gconv_find_shlib" + 0xfffefc68 to 5;	// 0x0003a6e8 () switch-like branch in "__gconv_find_shlib"
+
+multibranch "__gconv_find_shlib" + 0xfffefc78 to 5;	// 0x0003a6f8 () switch-like branch in "__gconv_find_shlib"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27ff4 to 5;	// 0x00065d00 () switch-like branch in "_dl_mcount_wrapper_check"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27e9c to 5;	// 0x00065ba8 () switch-like branch in "_dl_mcount_wrapper_check"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27f10 to 5;	// 0x00065c1c () switch-like branch in "_dl_mcount_wrapper_check"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27f98 to 5;	// 0x00065ca4 () switch-like branch in "_dl_mcount_wrapper_check"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27db4 to 5;	// 0x00065ac0 () switch-like branch in "_dl_mcount_wrapper_check"
+
+multibranch "_dl_mcount_wrapper_check" + 0x27e2c to 5;	// 0x00065b38 () switch-like branch in "_dl_mcount_wrapper_check"
+
+multicall "__gconv_release_shlib" + 0xfffefa2c to 5;	// 0x0003a6a8 () indirect call in "__gconv_release_shlib"
+
+multicall "__gconv_release_shlib" + 0xfffefa48 to 5;	// 0x0003a6c4 () indirect call in "__gconv_release_shlib"
+
+multibranch "__gconv_release_shlib" + 0xfffefa6c to 5;	// 0x0003a6e8 () switch-like branch in "__gconv_release_shlib"
+
+multibranch "__gconv_release_shlib" + 0xfffefa7c to 5;	// 0x0003a6f8 () switch-like branch in "__gconv_release_shlib"
+
+multibranch "_dl_debug_vdprintf" + 0xe0 to 5;	// 0x00064d20 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x468 to 5;	// 0x000650a8 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x46c to 5;	// 0x000650ac () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x470 to 5;	// 0x000650b0 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x478 to 5;	// 0x000650b8 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x47c to 5;	// 0x000650bc () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x480 to 5;	// 0x000650c0 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x484 to 5;	// 0x000650c4 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x48c to 5;	// 0x000650cc () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x498 to 5;	// 0x000650d8 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "_dl_debug_vdprintf" + 0x1c8 to 5;	// 0x00064e08 () switch-like branch in "_dl_debug_vdprintf"
+
+multibranch "lseek" + 0x38 to 5;	// 0x0005e430 () switch-like branch in "lseek"
+
+multibranch "__write_nocancel" + 0x8 to 5;	// 0x0003a0f8 () switch-like branch in "__write_nocancel"
+
+multibranch "__profil" + 0xfffe1e50 to 5;	// 0x0004d660 () switch-like branch in "__profil"
+
+multibranch "_dl_get_origin" + 0x2c to 5;	// 0x00064ab8 () switch-like branch in "_dl_get_origin"
+
+multibranch "_dl_lookup_symbol_x" + 0x448 to 5;	// 0x000639dc () switch-like branch in "_dl_lookup_symbol_x"
+
+multicall "_dl_signal_error" + 0x150 to 5;	// 0x0003dc18 () indirect call in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x28238 to 5;	// 0x00065d00 () switch-like branch in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x280e0 to 5;	// 0x00065ba8 () switch-like branch in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x28154 to 5;	// 0x00065c1c () switch-like branch in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x281dc to 5;	// 0x00065ca4 () switch-like branch in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x27ff8 to 5;	// 0x00065ac0 () switch-like branch in "_dl_signal_error"
+
+multibranch "_dl_signal_error" + 0x28070 to 5;	// 0x00065b38 () switch-like branch in "_dl_signal_error"
+
+multicall "_dl_signal_error" + 0xec to 5;	// 0x0003dbb4 () indirect call in "_dl_signal_error"
+
+multibranch "_dl_protect_relro" + 0x176c to 5;	// 0x0006781c () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x878 to 5;	// 0x00066928 () switch-like branch in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x9b0 to 5;	// 0x00066a60 () indirect call in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x828 to 5;	// 0x000668d8 () indirect call in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x9d0 to 5;	// 0x00066a80 () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x608 to 5;	// 0x000666b8 () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x1430 to 5;	// 0x000674e0 () switch-like branch in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x15e0 to 5;	// 0x00067690 () indirect call in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x13e0 to 5;	// 0x00067490 () indirect call in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x1600 to 5;	// 0x000676b0 () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x121c to 5;	// 0x000672cc () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x1a60 to 5;	// 0x00067b10 () switch-like branch in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x1ca8 to 5;	// 0x00067d58 () indirect call in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x1a14 to 5;	// 0x00067ac4 () indirect call in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x1cc8 to 5;	// 0x00067d78 () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x1910 to 5;	// 0x000679c0 () switch-like branch in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x203c to 5;	// 0x000680ec () indirect call in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0xd60 to 5;	// 0x00066e10 () switch-like branch in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0x12fc to 5;	// 0x000673ac () indirect call in "_dl_protect_relro"
+
+multicall "_dl_protect_relro" + 0xd14 to 5;	// 0x00066dc4 () indirect call in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0x131c to 5;	// 0x000673cc () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_protect_relro" + 0xc4c to 5;	// 0x00066cfc () switch-like branch in "_dl_protect_relro"
+
+multibranch "_dl_reloc_bad_type" + 0x16e0 to 5;	// 0x0006781c () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x7ec to 5;	// 0x00066928 () switch-like branch in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x924 to 5;	// 0x00066a60 () indirect call in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x79c to 5;	// 0x000668d8 () indirect call in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x944 to 5;	// 0x00066a80 () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x57c to 5;	// 0x000666b8 () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x13a4 to 5;	// 0x000674e0 () switch-like branch in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1554 to 5;	// 0x00067690 () indirect call in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1354 to 5;	// 0x00067490 () indirect call in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x1574 to 5;	// 0x000676b0 () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x1190 to 5;	// 0x000672cc () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x19d4 to 5;	// 0x00067b10 () switch-like branch in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1c1c to 5;	// 0x00067d58 () indirect call in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1988 to 5;	// 0x00067ac4 () indirect call in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x1c3c to 5;	// 0x00067d78 () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x1884 to 5;	// 0x000679c0 () switch-like branch in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1fb0 to 5;	// 0x000680ec () indirect call in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0xcd4 to 5;	// 0x00066e10 () switch-like branch in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0x1270 to 5;	// 0x000673ac () indirect call in "_dl_reloc_bad_type"
+
+multicall "_dl_reloc_bad_type" + 0xc88 to 5;	// 0x00066dc4 () indirect call in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0x1290 to 5;	// 0x000673cc () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_reloc_bad_type" + 0xbc0 to 5;	// 0x00066cfc () switch-like branch in "_dl_reloc_bad_type"
+
+multibranch "_dl_allocate_static_tls" + 0x1844 to 5;	// 0x0006781c () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x950 to 5;	// 0x00066928 () switch-like branch in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0xa88 to 5;	// 0x00066a60 () indirect call in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x900 to 5;	// 0x000668d8 () indirect call in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xaa8 to 5;	// 0x00066a80 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x6e0 to 5;	// 0x000666b8 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x1508 to 5;	// 0x000674e0 () switch-like branch in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x16b8 to 5;	// 0x00067690 () indirect call in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x14b8 to 5;	// 0x00067490 () indirect call in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x16d8 to 5;	// 0x000676b0 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x12f4 to 5;	// 0x000672cc () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x1b38 to 5;	// 0x00067b10 () switch-like branch in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x1d80 to 5;	// 0x00067d58 () indirect call in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x1aec to 5;	// 0x00067ac4 () indirect call in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x1da0 to 5;	// 0x00067d78 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x19e8 to 5;	// 0x000679c0 () switch-like branch in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x2114 to 5;	// 0x000680ec () indirect call in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xe38 to 5;	// 0x00066e10 () switch-like branch in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0x13d4 to 5;	// 0x000673ac () indirect call in "_dl_allocate_static_tls"
+
+multicall "_dl_allocate_static_tls" + 0xdec to 5;	// 0x00066dc4 () indirect call in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0x13f4 to 5;	// 0x000673cc () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xd24 to 5;	// 0x00066cfc () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xfffc7880 to 5;	// 0x0002d858 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xfffd6d8c to 5;	// 0x0003cd64 () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_allocate_static_tls" + 0xfffd6cb4 to 5;	// 0x0003cc8c () switch-like branch in "_dl_allocate_static_tls"
+
+multibranch "_dl_name_match_p" + 0x38 to 5;	// 0x00064518 () switch-like branch in "_dl_name_match_p"
+
+multibranch "__unsetenv" + 0xf0 to 5;	// 0x0004e1f8 () switch-like branch in "__unsetenv"
+
+multibranch "__unsetenv" + 0x64 to 5;	// 0x0004e16c () switch-like branch in "__unsetenv"
+
+multibranch "_dl_setup_hash" + 0xfffc54e8 to 5;	// 0x0002d858 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x250 to 5;	// 0x000685c0 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x2e8 to 5;	// 0x00068658 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x20c to 5;	// 0x0006857c () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x2a8 to 5;	// 0x00068618 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x188 to 5;	// 0x000684f8 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_setup_hash" + 0x108 to 5;	// 0x00068478 () switch-like branch in "_dl_setup_hash"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff71fc to 5;	// 0x0005b94c () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff72ac to 5;	// 0x0005b9fc () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff7dc4 to 5;	// 0x0005c514 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff7d44 to 5;	// 0x0005c494 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff72ec to 5;	// 0x0005ba3c () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff74ec to 5;	// 0x0005bc3c () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff74b8 to 5;	// 0x0005bc08 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff75a4 to 5;	// 0x0005bcf4 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff7668 to 5;	// 0x0005bdb8 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff773c to 5;	// 0x0005be8c () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "_dl_add_to_namespace_list" + 0xffff77b0 to 5;	// 0x0005bf00 () switch-like branch in "_dl_add_to_namespace_list"
+
+multibranch "__run_exit_handlers" + 0x2a4 to 5;	// 0x0001ed14 () switch-like branch in "__run_exit_handlers"
+
+multibranch "__run_exit_handlers" + 0x234 to 5;	// 0x0001eca4 () switch-like branch in "__run_exit_handlers"
+
+multicall "__run_exit_handlers" + 0x254 to 5;	// 0x0001ecc4 () indirect call in "__run_exit_handlers"
+
+multibranch "__run_exit_handlers" + 0x1d4 to 5;	// 0x0001ec44 () switch-like branch in "__run_exit_handlers"
+
+multicall "__run_exit_handlers" + 0x148 to 5;	// 0x0001ebb8 () indirect call in "__run_exit_handlers"
+
+multibranch "__run_exit_handlers" + 0x120 to 5;	// 0x0001eb90 () switch-like branch in "__run_exit_handlers"
+
+multibranch "__run_exit_handlers" + 0x170 to 5;	// 0x0001ebe0 () switch-like branch in "__run_exit_handlers"
+
+multicall "__run_exit_handlers" + 0x300 to 5;	// 0x0001ed70 () indirect call in "__run_exit_handlers"
+
+multibranch "__run_exit_handlers" + 0x70 to 5;	// 0x0001eae0 () switch-like branch in "__run_exit_handlers"
+
+multibranch "memmove" + 0x3e0 to 5;	// 0x00036cc0 () switch-like branch in "memmove"
+
+multibranch "memmove" + 0x54 to 5;	// 0x00036934 () switch-like branch in "memmove"
+
+multibranch "__futex_abstimed_wait_common" + 0xa0 to 5;	// 0x0005a66c () switch-like branch in "__futex_abstimed_wait_common"
+
+multibranch "__futex_abstimed_wait_common" + 0x128 to 5;	// 0x0005a6f4 () switch-like branch in "__futex_abstimed_wait_common"
+
+multibranch "__futex_abstimed_wait_common" + 0x1c8 to 5;	// 0x0005a794 () switch-like branch in "__futex_abstimed_wait_common"
+
+multibranch "__futex_abstimed_wait_common" + 0x1fc to 5;	// 0x0005a7c8 () switch-like branch in "__futex_abstimed_wait_common"
+
+multibranch "__futex_abstimed_wait_common" + 0x194 to 5;	// 0x0005a760 () switch-like branch in "__futex_abstimed_wait_common"
+
+multibranch "read_alias_file" + 0x608 to 5;	// 0x0001cc90 () switch-like branch in "read_alias_file"
+
+multibranch "read_alias_file" + 0x518 to 5;	// 0x0001cba0 () switch-like branch in "read_alias_file"
+
+multibranch "__gettextparse" + 0x148 to 5;	// 0x0001d7f0 () switch-like branch in "__gettextparse"
+
+multibranch "__gettextparse" + 0x5fc to 5;	// 0x0001dca4 () switch-like branch in "__gettextparse"
+
+multibranch "__gconv_find_transform" + 0x4b8 to 5;	// 0x000407ec () switch-like branch in "__gconv_find_transform"
+
+multicall "__gconv_find_transform" + 0x428 to 5;	// 0x0004075c () indirect call in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0x3b4 to 5;	// 0x000406e8 () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0x22c to 5;	// 0x00040560 () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0x308 to 5;	// 0x0004063c () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0x1d8 to 5;	// 0x0004050c () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0xd0 to 5;	// 0x00040404 () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_find_transform" + 0x6c to 5;	// 0x000403a0 () switch-like branch in "__gconv_find_transform"
+
+multibranch "__gconv_close_transform" + 0x144 to 5;	// 0x000407ec () switch-like branch in "__gconv_close_transform"
+
+multicall "__gconv_close_transform" + 0xb4 to 5;	// 0x0004075c () indirect call in "__gconv_close_transform"
+
+multibranch "__gconv_close_transform" + 0x40 to 5;	// 0x000406e8 () switch-like branch in "__gconv_close_transform"
+
+multicall "__mbsrtowcs_l" + 0x2e8 to 5;	// 0x00037f78 () indirect call in "__mbsrtowcs_l"
+
+multibranch "__mbsrtowcs_l" + 0x400 to 5;	// 0x00038090 () switch-like branch in "__mbsrtowcs_l"
+
+multibranch "__mbsrtowcs_l" + 0x4dc to 5;	// 0x0003816c () switch-like branch in "__mbsrtowcs_l"
+
+multicall "__mbsrtowcs_l" + 0x4b8 to 5;	// 0x00038148 () indirect call in "__mbsrtowcs_l"
+
+multibranch "__mbsrtowcs_l" + 0x684 to 5;	// 0x00038314 () switch-like branch in "__mbsrtowcs_l"
+
+multicall "__mbsrtowcs_l" + 0x45c to 5;	// 0x000380ec () indirect call in "__mbsrtowcs_l"
+
+multicall "__mbsrtowcs_l" + 0x140 to 5;	// 0x00037dd0 () indirect call in "__mbsrtowcs_l"
+
+multicall "_IO_fwide" + 0x238 to 5;	// 0x00027644 () indirect call in "_IO_fwide"
+
+multibranch "_IO_fwide" + 0x250 to 5;	// 0x0002765c () switch-like branch in "_IO_fwide"
+
+multicall "_IO_fwide" + 0x368 to 5;	// 0x00027774 () indirect call in "_IO_fwide"
+
+multibranch "_IO_fwide" + 0x380 to 5;	// 0x0002778c () switch-like branch in "_IO_fwide"
+
+multicall 0x000545d0 to 5;	// 0x000545d0 () indirect call in 0x00053c7c
+
+multibranch 0x0005450c to 5;	// 0x0005450c () switch-like branch in 0x00053c7c
+
+multicall 0x00054b10 to 5;	// 0x00054b10 () indirect call in 0x00053c7c
+
+multicall 0x00055ac8 to 5;	// 0x00055ac8 () indirect call in 0x00053c7c
+
+multibranch 0x00053f2c to 5;	// 0x00053f2c () switch-like branch in 0x00053c7c
+
+multibranch 0x00055fb8 to 5;	// 0x00055fb8 () switch-like branch in 0x00053c7c
+
+multicall 0x00056184 to 5;	// 0x00056184 () indirect call in 0x00053c7c
+
+multibranch 0x0005603c to 5;	// 0x0005603c () switch-like branch in 0x00053c7c
+
+multicall 0x00057eb8 to 5;	// 0x00057eb8 () indirect call in 0x00053c7c
+
+multicall 0x00057d54 to 5;	// 0x00057d54 () indirect call in 0x00053c7c
+
+multibranch 0x00057da8 to 5;	// 0x00057da8 () switch-like branch in 0x00053c7c
+
+multibranch 0x00057e3c to 5;	// 0x00057e3c () switch-like branch in 0x00053c7c
+
+multicall 0x00055e0c to 5;	// 0x00055e0c () indirect call in 0x00053c7c
+
+multibranch 0x00056218 to 5;	// 0x00056218 () switch-like branch in 0x00053c7c
+
+multicall 0x00053ec8 to 5;	// 0x00053ec8 () indirect call in 0x00053c7c
+
+multicall "trecurse_r" + 0x34 to 5;	// 0x0003a6a8 () indirect call in "trecurse_r"
+
+multicall "trecurse_r" + 0x50 to 5;	// 0x0003a6c4 () indirect call in "trecurse_r"
+
+multibranch "trecurse_r" + 0x74 to 5;	// 0x0003a6e8 () switch-like branch in "trecurse_r"
+
+multibranch "trecurse_r" + 0x84 to 5;	// 0x0003a6f8 () switch-like branch in "trecurse_r"
+
+multibranch "__libc_dlopen_mode" + 0x17c to 5;	// 0x00069260 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x18c to 5;	// 0x00069270 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x23c to 5;	// 0x00069320 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x24c to 5;	// 0x00069330 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x39c to 5;	// 0x00069480 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x450 to 5;	// 0x00069534 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlopen_mode" + 0x45c to 5;	// 0x00069540 () switch-like branch in "__libc_dlopen_mode"
+
+multibranch "__libc_dlsym" + 0xac to 5;	// 0x00069320 () switch-like branch in "__libc_dlsym"
+
+multibranch "__libc_dlsym" + 0xbc to 5;	// 0x00069330 () switch-like branch in "__libc_dlsym"
+
+multibranch "__libc_dlsym" + 0x20c to 5;	// 0x00069480 () switch-like branch in "__libc_dlsym"
+
+multibranch "__libc_dlsym" + 0x2c0 to 5;	// 0x00069534 () switch-like branch in "__libc_dlsym"
+
+multibranch "__libc_dlsym" + 0x2cc to 5;	// 0x00069540 () switch-like branch in "__libc_dlsym"
+
+multicall "__twalk_r" + 0xfffff630 to 5;	// 0x0003a6a8 () indirect call in "__twalk_r"
+
+multicall "__twalk_r" + 0xfffff64c to 5;	// 0x0003a6c4 () indirect call in "__twalk_r"
+
+multibranch "__twalk_r" + 0xfffff670 to 5;	// 0x0003a6e8 () switch-like branch in "__twalk_r"
+
+multibranch "__twalk_r" + 0xfffff680 to 5;	// 0x0003a6f8 () switch-like branch in "__twalk_r"
+
+multicall "new_do_write" + 0x6c to 5;	// 0x00027fc8 () indirect call in "new_do_write"
+
+multicall "new_do_write" + 0xf0 to 5;	// 0x0002804c () indirect call in "new_do_write"
+
+multicall "_IO_wdoallocbuf" + 0x2c to 5;	// 0x00059b60 () indirect call in "_IO_wdoallocbuf"
+
+multicall "_IO_doallocbuf" + 0x60 to 5;	// 0x0002b5fc () indirect call in "_IO_doallocbuf"
+
+multicall "__libio_codecvt_out" + 0x9c to 5;	// 0x00027644 () indirect call in "__libio_codecvt_out"
+
+multibranch "__libio_codecvt_out" + 0xb4 to 5;	// 0x0002765c () switch-like branch in "__libio_codecvt_out"
+
+multicall "__libio_codecvt_out" + 0x1cc to 5;	// 0x00027774 () indirect call in "__libio_codecvt_out"
+
+multibranch "__libio_codecvt_out" + 0x1e4 to 5;	// 0x0002778c () switch-like branch in "__libio_codecvt_out"
+
+multibranch "getpid" + 0x8 to 5;	// 0x0005e078 () switch-like branch in "getpid"
+
+multibranch "__snprintf" + 0xc4 to 5;	// 0x00053444 () switch-like branch in "__snprintf"
+
+multibranch "__snprintf" + 0xfffda4d8 to 5;	// 0x0002d858 () switch-like branch in "__snprintf"
+
+multibranch "setitimer" + 0x114 to 5;	// 0x000715dc () switch-like branch in "setitimer"
+
+multibranch "setitimer" + 0x148 to 5;	// 0x00071610 () switch-like branch in "setitimer"
+
+multibranch "__divsi3" + 0x48 to 5;	// 0x00073680 () switch-like branch in "__divsi3"
+
+multibranch "do_lookup_x" + 0xbc4 to 5;	// 0x00063574 () switch-like branch in "do_lookup_x"
+
+multibranch "do_lookup_x" + 0x102c to 5;	// 0x000639dc () switch-like branch in "do_lookup_x"
+
+multicall "do_lookup_x" + 0xa60 to 5;	// 0x00063410 () indirect call in "do_lookup_x"
+
+multibranch "_dl_exception_create_format" + 0x170 to 5;	// 0x0005ea88 () switch-like branch in "_dl_exception_create_format"
+
+multibranch "_dl_exception_create_format" + 0x7c to 5;	// 0x0005e994 () switch-like branch in "_dl_exception_create_format"
+
+multicall "_dl_signal_exception" + 0x1a4 to 5;	// 0x0003dc18 () indirect call in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x2828c to 5;	// 0x00065d00 () switch-like branch in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x28134 to 5;	// 0x00065ba8 () switch-like branch in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x281a8 to 5;	// 0x00065c1c () switch-like branch in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x28230 to 5;	// 0x00065ca4 () switch-like branch in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x2804c to 5;	// 0x00065ac0 () switch-like branch in "_dl_signal_exception"
+
+multibranch "_dl_signal_exception" + 0x280c4 to 5;	// 0x00065b38 () switch-like branch in "_dl_signal_exception"
+
+multicall "_dl_signal_exception" + 0x140 to 5;	// 0x0003dbb4 () indirect call in "_dl_signal_exception"
+
+multicall "_dl_catch_exception" + 0xec to 5;	// 0x0003dc18 () indirect call in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x281d4 to 5;	// 0x00065d00 () switch-like branch in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x2807c to 5;	// 0x00065ba8 () switch-like branch in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x280f0 to 5;	// 0x00065c1c () switch-like branch in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x28178 to 5;	// 0x00065ca4 () switch-like branch in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x27f94 to 5;	// 0x00065ac0 () switch-like branch in "_dl_catch_exception"
+
+multibranch "_dl_catch_exception" + 0x2800c to 5;	// 0x00065b38 () switch-like branch in "_dl_catch_exception"
+
+multicall "_dl_catch_exception" + 0x88 to 5;	// 0x0003dbb4 () indirect call in "_dl_catch_exception"
+
+multibranch "pthread_mutex_lock" + 0xfffff7bc to 5;	// 0x0005ac80 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x488 to 5;	// 0x0005b94c () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x538 to 5;	// 0x0005b9fc () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x1050 to 5;	// 0x0005c514 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0xfd0 to 5;	// 0x0005c494 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x578 to 5;	// 0x0005ba3c () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x778 to 5;	// 0x0005bc3c () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x744 to 5;	// 0x0005bc08 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x830 to 5;	// 0x0005bcf4 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x8f4 to 5;	// 0x0005bdb8 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x314 to 5;	// 0x0005b7d8 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x54 to 5;	// 0x0005b518 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x2b4 to 5;	// 0x0005b778 () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x1d8 to 5;	// 0x0005b69c () switch-like branch in "pthread_mutex_lock"
+
+multibranch "pthread_mutex_lock" + 0x168 to 5;	// 0x0005b62c () switch-like branch in "pthread_mutex_lock"
+
+multibranch "__sched_get_priority_max" + 0x8 to 5;	// 0x0005e178 () switch-like branch in "__sched_get_priority_max"
+
+multibranch "__sched_get_priority_min" + 0x8 to 5;	// 0x0005e198 () switch-like branch in "__sched_get_priority_min"
+
+multibranch "__sched_getparam" + 0x8 to 5;	// 0x0005e118 () switch-like branch in "__sched_getparam"
+
+multibranch "sched_setscheduler" + 0x8 to 5;	// 0x0005e138 () switch-like branch in "sched_setscheduler"
+
+multibranch "sched_getscheduler" + 0x8 to 5;	// 0x0005e158 () switch-like branch in "sched_getscheduler"
+
+multibranch "__lll_lock_wake" + 0x14 to 5;	// 0x0002d878 () switch-like branch in "__lll_lock_wake"
+
+multicall "__new_fclose" + 0x7c to 5;	// 0x00025130 () indirect call in "__new_fclose"
+
+multibranch "__new_fclose" + 0x10c to 5;	// 0x000251c0 () switch-like branch in "__new_fclose"
+
+multibranch "__new_fclose" + 0xbc to 5;	// 0x00025170 () switch-like branch in "__new_fclose"
+
+multibranch "__new_fclose" + 0x22c to 5;	// 0x000252e0 () switch-like branch in "__new_fclose"
+
+multibranch "__new_fclose" + 0x1b8 to 5;	// 0x0002526c () switch-like branch in "__new_fclose"
+
+multibranch "__gconv_load_conf" + 0x1aa2c to 5;	// 0x0005c254 () switch-like branch in "__gconv_load_conf"
+
+multicall "find_derivation" + 0x6e0 to 5;	// 0x0003fe98 () indirect call in "find_derivation"
+
+multicall "find_derivation" + 0x144 to 5;	// 0x0003f8fc () indirect call in "find_derivation"
+
+multibranch "__wcsmbs_load_conv" + 0x2b0 to 5;	// 0x000379d8 () switch-like branch in "__wcsmbs_load_conv"
+
+multibranch "__wcsmbs_load_conv" + 0x390 to 5;	// 0x00037ab8 () switch-like branch in "__wcsmbs_load_conv"
+
+multibranch "__wcsmbs_load_conv" + 0x424 to 5;	// 0x00037b4c () switch-like branch in "__wcsmbs_load_conv"
+
+multibranch "__wcsmbs_load_conv" + 0x310 to 5;	// 0x00037a38 () switch-like branch in "__wcsmbs_load_conv"
+
+multibranch "__wcsmbs_clone_conv" + 0xdc to 5;	// 0x00037ab8 () switch-like branch in "__wcsmbs_clone_conv"
+
+multibranch "__wcsmbs_clone_conv" + 0x170 to 5;	// 0x00037b4c () switch-like branch in "__wcsmbs_clone_conv"
+
+multibranch "__wcsmbs_clone_conv" + 0x5c to 5;	// 0x00037a38 () switch-like branch in "__wcsmbs_clone_conv"
+
+multibranch "__woverflow" + 0x54 to 5;	// 0x000599d4 () switch-like branch in "__woverflow"
+
+multibranch "_IO_wpadn" + 0x160 to 5;	// 0x00059420 () switch-like branch in "_IO_wpadn"
+
+multibranch "_IO_wpadn" + 0x168 to 5;	// 0x00059428 () switch-like branch in "_IO_wpadn"
+
+multibranch "_IO_wpadn" + 0x178 to 5;	// 0x00059438 () switch-like branch in "_IO_wpadn"
+
+multicall "_IO_wpadn" + 0x110 to 5;	// 0x000593d0 () indirect call in "_IO_wpadn"
+
+multicall "_IO_wpadn" + 0x8c to 5;	// 0x0005934c () indirect call in "_IO_wpadn"
+
+multibranch "__parse_one_specwc" + 0x64 to 5;	// 0x00057fc0 () switch-like branch in "__parse_one_specwc"
+
+multibranch "__parse_one_specwc" + 0x1ac to 5;	// 0x00058108 () switch-like branch in "__parse_one_specwc"
+
+multibranch "__parse_one_specwc" + 0x2d0 to 5;	// 0x0005822c () switch-like branch in "__parse_one_specwc"
+
+multicall "__parse_one_specwc" + 0x734 to 5;	// 0x00058690 () indirect call in "__parse_one_specwc"
+
+multibranch "_dl_catch_error" + 0x280a0 to 5;	// 0x00065d00 () switch-like branch in "_dl_catch_error"
+
+multibranch "_dl_catch_error" + 0x27f48 to 5;	// 0x00065ba8 () switch-like branch in "_dl_catch_error"
+
+multibranch "_dl_catch_error" + 0x27fbc to 5;	// 0x00065c1c () switch-like branch in "_dl_catch_error"
+
+multibranch "_dl_catch_error" + 0x28044 to 5;	// 0x00065ca4 () switch-like branch in "_dl_catch_error"
+
+multibranch "_dl_catch_error" + 0x27e60 to 5;	// 0x00065ac0 () switch-like branch in "_dl_catch_error"
+
+multibranch "_dl_catch_error" + 0x27ed8 to 5;	// 0x00065b38 () switch-like branch in "_dl_catch_error"
+
+multibranch "dlerror_run" + 0x174 to 5;	// 0x0006904c () switch-like branch in "dlerror_run"
+
+multibranch "__setitimer64" + 0x290 to 5;	// 0x000715dc () switch-like branch in "__setitimer64"
+
+multibranch "__setitimer64" + 0x2c4 to 5;	// 0x00071610 () switch-like branch in "__setitimer64"
+
+multibranch "__setitimer64" + 0xfc to 5;	// 0x00071448 () switch-like branch in "__setitimer64"
+
+multibranch "__setitimer64" + 0x78 to 5;	// 0x000713c4 () switch-like branch in "__setitimer64"
+
+multibranch "check_match" + 0xd7c to 5;	// 0x00063574 () switch-like branch in "check_match"
+
+multibranch "check_match" + 0x11e4 to 5;	// 0x000639dc () switch-like branch in "check_match"
+
+multicall "check_match" + 0xc18 to 5;	// 0x00063410 () indirect call in "check_match"
+
+multibranch "__pthread_mutex_unlock" + 0xfffff970 to 5;	// 0x0005b94c () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffa20 to 5;	// 0x0005b9fc () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0x538 to 5;	// 0x0005c514 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0x4b8 to 5;	// 0x0005c494 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffa60 to 5;	// 0x0005ba3c () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffc60 to 5;	// 0x0005bc3c () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffc2c to 5;	// 0x0005bc08 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffd18 to 5;	// 0x0005bcf4 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffddc to 5;	// 0x0005bdb8 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xfffffeb0 to 5;	// 0x0005be8c () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "__pthread_mutex_unlock" + 0xffffff24 to 5;	// 0x0005bf00 () switch-like branch in "__pthread_mutex_unlock"
+
+multibranch "expand_dynamic_string_token" + 0xfffd6e7c to 5;	// 0x00036cc0 () switch-like branch in "expand_dynamic_string_token"
+
+multibranch "__lll_lock_wait" + 0x6c to 5;	// 0x0002d810 () switch-like branch in "__lll_lock_wait"
+
+multibranch "__lll_lock_wait" + 0x3c to 5;	// 0x0002d7e0 () switch-like branch in "__lll_lock_wait"
+
+multibranch "_IO_file_fopen" + 0x4bc to 5;	// 0x0002a32c () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0x4c4 to 5;	// 0x0002a334 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0x4c8 to 5;	// 0x0002a338 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xe14 to 5;	// 0x0002ac84 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xee4 to 5;	// 0x0002ad54 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xee8 to 5;	// 0x0002ad58 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xef8 to 5;	// 0x0002ad68 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xefc to 5;	// 0x0002ad6c () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xf04 to 5;	// 0x0002ad74 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xd54 to 5;	// 0x0002abc4 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xc60 to 5;	// 0x0002aad0 () switch-like branch in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xbf0 to 5;	// 0x0002aa60 () switch-like branch in "_IO_file_fopen"
+
+multicall "_IO_file_fopen" + 0x580 to 5;	// 0x0002a3f0 () indirect call in "_IO_file_fopen"
+
+multibranch "_IO_file_fopen" + 0xc8 to 5;	// 0x00029f38 () switch-like branch in "_IO_file_fopen"
+
+multibranch "__qsort_r" + 0x2c4 to 5;	// 0x0001e8bc () switch-like branch in "__qsort_r"
+
+multicall "find_module.constprop.0" + 0xe0 to 5;	// 0x0004a1b4 () indirect call in "find_module.constprop.0"
+
+multibranch "wmemcpy" + 0xfffd9868 to 5;	// 0x00036cc0 () switch-like branch in "wmemcpy"
+
+multibranch "__wmemmove" + 0xfffd9860 to 5;	// 0x00036cc0 () switch-like branch in "__wmemmove"
+
+multibranch "__wmemmove" + 0xfffd94d4 to 5;	// 0x00036934 () switch-like branch in "__wmemmove"
+
+multibranch "_IO_link_in" + 0x2bc to 5;	// 0x0002b044 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x2c0 to 5;	// 0x0002b048 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x2c4 to 5;	// 0x0002b04c () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x2d0 to 5;	// 0x0002b058 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x238 to 5;	// 0x0002afc0 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x1b0 to 5;	// 0x0002af38 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0x130 to 5;	// 0x0002aeb8 () switch-like branch in "_IO_link_in"
+
+multibranch "_IO_link_in" + 0xc0 to 5;	// 0x0002ae48 () switch-like branch in "_IO_link_in"
+
+multicall "_IO_file_open" + 0xbc to 5;	// 0x00029b28 () indirect call in "_IO_file_open"
+
+multibranch "__sysconf" + 0x450 to 5;	// 0x000387c4 () switch-like branch in "__sysconf"
+
+multibranch "__sysconf" + 0x134 to 5;	// 0x000384a8 () switch-like branch in "__sysconf"
+
+multibranch "__sysconf" + 0x2cc to 5;	// 0x00038640 () switch-like branch in "__sysconf"
+
+multibranch "_quicksort" + 0x8d0 to 5;	// 0x0004e068 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x8d8 to 5;	// 0x0004e070 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x8dc to 5;	// 0x0004e074 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x8a8 to 5;	// 0x0004e040 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x86c to 5;	// 0x0004e004 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x5dc to 5;	// 0x0004dd74 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x80c to 5;	// 0x0004dfa4 () switch-like branch in "_quicksort"
+
+multibranch "_quicksort" + 0x4b4 to 5;	// 0x0004dc4c () switch-like branch in "_quicksort"
+
+multicall "_quicksort" + 0x224 to 5;	// 0x0004d9bc () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0x1a8 to 5;	// 0x0004d940 () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0xa8 to 5;	// 0x0004d840 () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0xc0 to 5;	// 0x0004d858 () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0x3d0 to 5;	// 0x0004db68 () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0x104 to 5;	// 0x0004d89c () indirect call in "_quicksort"
+
+multicall "_quicksort" + 0xe4 to 5;	// 0x0004d87c () indirect call in "_quicksort"
+
+multibranch "msort_with_tmp.part.0" + 0x244 to 5;	// 0x0001e57c () switch-like branch in "msort_with_tmp.part.0"
+
+multibranch "msort_with_tmp.part.0" + 0x18988 to 5;	// 0x00036cc0 () switch-like branch in "msort_with_tmp.part.0"
+
+multicall "msort_with_tmp.part.0" + 0x280 to 5;	// 0x0001e5b8 () indirect call in "msort_with_tmp.part.0"
+
+multibranch "msort_with_tmp.part.0" + 0x74 to 5;	// 0x0001e3ac () switch-like branch in "msort_with_tmp.part.0"
+
+multibranch "open" + 0xe0 to 5;	// 0x00039334 () switch-like branch in "open"
+
+multibranch "open" + 0x6c to 5;	// 0x000392c0 () switch-like branch in "open"
+
+
+// Function _IO_printf ()
+loop "_IO_printf" + 0x150 5 ; // 0x1fa20 ()
+
+// Function __stack_chk_fail ()
+loop "__stack_chk_fail" + 0x24 5 ; // 0x3c168 ()
+
+// Function __divdf3 ()
+loop "__divdf3" + 0x8c 5 ; // 0x184a0 ()
+
+// Function __vfprintf_internal ()
+loop "__vfprintf_internal" + 0x298 5 ; // 0x2245c ()
+loop "__vfprintf_internal" + 0x1fc8 5 ; // 0x2418c ()
+
+// Function __fortify_fail ()
+loop "__fortify_fail" + 0x10 5 ; // 0x3c168 ()
+
+// Function __libc_message ()
+loop "__libc_message" + 0x2a8 5 ; // 0x27d88 ()
+loop "__libc_message" + 0x58 5 ; // 0x27b38 ()
+	loop "__libc_message" + 0x7c 5 ; // 0x27b5c ()
+loop "__libc_message" + 0x12c 5 ; // 0x27c0c ()
+
+// Function 0x00018388 ()
+loop 0x0001836c 5 ; // 0x1836c ()
+loop 0x00018348 5 ; // 0x18348 ()
+
+// Function 0x000185a8 ()
+loop 0x0001836c 5 ; // 0x1836c ()
+loop 0x00018348 5 ; // 0x18348 ()
+
+// Function __branred ()
+loop "__branred" + 0x138 5 ; // 0x13568 ()
+loop "__branred" + 0x194 5 ; // 0x135c4 ()
+loop "__branred" + 0x210 5 ; // 0x13640 ()
+loop "__branred" + 0x408 5 ; // 0x13838 ()
+loop "__branred" + 0x460 5 ; // 0x13890 ()
+loop "__branred" + 0x4d8 5 ; // 0x13908 ()
+
+// Function __libc_cleanup_pop_restore ()
+loop "__libc_cleanup_pop_restore" + 0x1028 5 ; // 0x2e704 ()
+
+// Function strchrnul ()
+loop "strchrnul" + 0x44 5 ; // 0x36f84 ()
+loop "strchrnul" + 0x14 5 ; // 0x36f54 ()
+
+// Function __lll_lock_wait_private ()
+loop "__lll_lock_wait_private" + 0x18 5 ; // 0x2d720 ()
+
+// Function printf_positional ()
+loop "printf_positional" + 0x216c 5 ; // 0x2245c ()
+loop "printf_positional" + 0x3e9c 5 ; // 0x2418c ()
+loop "printf_positional" + 0x294 5 ; // 0x20584 ()
+loop "printf_positional" + 0x348 5 ; // 0x20638 ()
+	loop "printf_positional" + 0x62c 5 ; // 0x2091c ()
+	loop "printf_positional" + 0x1b88 5 ; // 0x21e78 ()
+	loop "printf_positional" + 0x480 5 ; // 0x20770 ()
+	loop "printf_positional" + 0x10a0 5 ; // 0x21390 ()
+loop "printf_positional" + 0x1fc 5 ; // 0x204ec ()
+loop "printf_positional" + 0xe4 5 ; // 0x203d4 ()
+
+// Function __malloc ()
+loop "__malloc" - 0x0 5 ; // 0x33580 ()
+	loop "__malloc" + 0x4e8 5 ; // 0x33a68 ()
+loop "__malloc" + 0xd8 5 ; // 0x33658 ()
+loop "__malloc" + 0x434 5 ; // 0x339b4 ()
+
+// Function realloc ()
+loop "realloc" + 0xfffff728 5 ; // 0x33658 ()
+loop "realloc" + 0xfffffa84 5 ; // 0x339b4 ()
+loop "realloc" + 0xfffffb38 5 ; // 0x33a68 ()
+loop "realloc" + 0xf4 5 ; // 0x34024 ()
+loop "realloc" + 0x2a8 5 ; // 0x341d8 ()
+loop "realloc" + 0x2f8 5 ; // 0x34228 ()
+
+// Function memcpy ()
+loop "memcpy" + 0x28 5 ; // 0x36ca8 ()
+loop "memcpy" + 0x1f0 5 ; // 0x36e70 ()
+loop "memcpy" + 0x190 5 ; // 0x36e10 ()
+loop "memcpy" + 0x27c 5 ; // 0x36efc ()
+loop "memcpy" + 0x21c 5 ; // 0x36e9c ()
+loop "memcpy" + 0x164 5 ; // 0x36de4 ()
+loop "memcpy" + 0x104 5 ; // 0x36d84 ()
+
+// Function abort ()
+loop "abort" + 0xf8 5 ; // 0x10268 ()
+
+// Function strlen ()
+loop "strlen" + 0x28 5 ; // 0x35a98 ()
+
+// Function __libc_fatal ()
+loop "__libc_fatal" + 0x10 5 ; // 0x27d88 ()
+
+// Function memset ()
+loop "memset" + 0x54 5 ; // 0x36be4 ()
+loop "memset" + 0xc 5 ; // 0x36b9c ()
+loop "memset" + 0x2c 5 ; // 0x36bbc ()
+
+// Function _itoa_word ()
+loop "_itoa_word" + 0x64 5 ; // 0x4ea98 ()
+loop "_itoa_word" + 0x80 5 ; // 0x4eab4 ()
+loop "_itoa_word" + 0x38 5 ; // 0x4ea6c ()
+loop "_itoa_word" + 0xb4 5 ; // 0x4eae8 ()
+
+// Function ptmalloc_init.part.0 ()
+loop "ptmalloc_init.part.0" + 0x94 5 ; // 0x2f5b8 ()
+loop "ptmalloc_init.part.0" + 0x314 5 ; // 0x2f838 ()
+
+// Function _int_malloc ()
+loop "_int_malloc" + 0xaa4 5 ; // 0x32774 ()
+loop "_int_malloc" + 0x8c4 5 ; // 0x32594 ()
+loop "_int_malloc" + 0x10d4 5 ; // 0x32da4 ()
+loop "_int_malloc" + 0x4f14 5 ; // 0x36be4 ()
+loop "_int_malloc" + 0x4ecc 5 ; // 0x36b9c ()
+loop "_int_malloc" + 0x4eec 5 ; // 0x36bbc ()
+loop "_int_malloc" + 0xdf0 5 ; // 0x32ac0 ()
+loop "_int_malloc" + 0xb64 5 ; // 0x32834 ()
+loop "_int_malloc" + 0x370 5 ; // 0x32040 ()
+loop "_int_malloc" + 0x308 5 ; // 0x31fd8 ()
+	loop "_int_malloc" + 0x3f0 5 ; // 0x320c0 ()
+loop "_int_malloc" + 0x114 5 ; // 0x31de4 ()
+
+// Function get_free_list ()
+loop "get_free_list" + 0xb8 5 ; // 0x2f838 ()
+
+// Function arena_get_retry ()
+loop "arena_get_retry" + 0x9c 5 ; // 0x302d4 ()
+loop "arena_get_retry" + 0xffffff2c 5 ; // 0x30164 ()
+loop "arena_get_retry" + 0xfffffcd4 5 ; // 0x2ff0c ()
+loop "arena_get_retry" + 0xfffff9f0 5 ; // 0x2fc28 ()
+loop "arena_get_retry" + 0xfffffa18 5 ; // 0x2fc50 ()
+loop "arena_get_retry" + 0xfffffb1c 5 ; // 0x2fd54 ()
+loop "arena_get_retry" + 0xfffffaec 5 ; // 0x2fd24 ()
+loop "arena_get_retry" + 0x18 5 ; // 0x30250 ()
+
+// Function arena_get2.part.0 ()
+loop "arena_get2.part.0" + 0x590 5 ; // 0x30164 ()
+loop "arena_get2.part.0" + 0x338 5 ; // 0x2ff0c ()
+loop "arena_get2.part.0" + 0x54 5 ; // 0x2fc28 ()
+loop "arena_get2.part.0" + 0x7c 5 ; // 0x2fc50 ()
+loop "arena_get2.part.0" + 0x180 5 ; // 0x2fd54 ()
+loop "arena_get2.part.0" + 0x150 5 ; // 0x2fd24 ()
+
+// Function tcache_init.part.0 ()
+loop "tcache_init.part.0" + 0x68 5 ; // 0x32da4 ()
+loop "tcache_init.part.0" + 0x3ea8 5 ; // 0x36be4 ()
+loop "tcache_init.part.0" + 0x3e60 5 ; // 0x36b9c ()
+loop "tcache_init.part.0" + 0x3e80 5 ; // 0x36bbc ()
+
+// Function malloc_printerr ()
+loop "malloc_printerr" + 0x38 5 ; // 0x2e8f0 ()
+	loop "malloc_printerr" + 0x6c 5 ; // 0x2e924 ()
+loop "malloc_printerr" + 0xa8 5 ; // 0x2e960 ()
+	loop "malloc_printerr" + 0xb4 5 ; // 0x2e96c ()
+
+// Function munmap_chunk ()
+loop "munmap_chunk" + 0xd398 5 ; // 0x3be8c ()
+loop "munmap_chunk" + 0xd2a8 5 ; // 0x3bd9c ()
+loop "munmap_chunk" + 0xd1f8 5 ; // 0x3bcec ()
+loop "munmap_chunk" + 0xd0b8 5 ; // 0x3bbac ()
+	loop "munmap_chunk" + 0xd0f0 5 ; // 0x3bbe4 ()
+		loop "munmap_chunk" + 0xd144 5 ; // 0x3bc38 ()
+loop "munmap_chunk" + 0x64 5 ; // 0x2eb58 ()
+loop "munmap_chunk" + 0xa0 5 ; // 0x2eb94 ()
+
+// Function _int_free ()
+loop "_int_free" + 0x1f64 5 ; // 0x32774 ()
+loop "_int_free" + 0x1d84 5 ; // 0x32594 ()
+loop "_int_free" + 0x2594 5 ; // 0x32da4 ()
+loop "_int_free" + 0x63d4 5 ; // 0x36be4 ()
+loop "_int_free" + 0x638c 5 ; // 0x36b9c ()
+loop "_int_free" + 0x63ac 5 ; // 0x36bbc ()
+loop "_int_free" + 0x22b0 5 ; // 0x32ac0 ()
+loop "_int_free" + 0x2024 5 ; // 0x32834 ()
+loop "_int_free" + 0x1830 5 ; // 0x32040 ()
+loop "_int_free" + 0x17c8 5 ; // 0x31fd8 ()
+	loop "_int_free" + 0x18b0 5 ; // 0x320c0 ()
+loop "_int_free" + 0x15d4 5 ; // 0x31de4 ()
+loop "_int_free" + 0x5f0 5 ; // 0x30e00 ()
+loop "_int_free" + 0x6f8 5 ; // 0x30f08 ()
+loop "_int_free" + 0x4b8 5 ; // 0x30cc8 ()
+loop "_int_free" + 0xb67c 5 ; // 0x3be8c ()
+loop "_int_free" + 0xb58c 5 ; // 0x3bd9c ()
+loop "_int_free" + 0xb4dc 5 ; // 0x3bcec ()
+loop "_int_free" + 0xb39c 5 ; // 0x3bbac ()
+	loop "_int_free" + 0xb3d4 5 ; // 0x3bbe4 ()
+		loop "_int_free" + 0xb428 5 ; // 0x3bc38 ()
+loop "_int_free" + 0xffffe348 5 ; // 0x2eb58 ()
+loop "_int_free" + 0xffffe384 5 ; // 0x2eb94 ()
+loop "_int_free" + 0x378 5 ; // 0x30b88 ()
+loop "_int_free" + 0x824 5 ; // 0x31034 ()
+
+// Function __rawmemchr ()
+loop "__rawmemchr" + 0x25b34 5 ; // 0x5ca50 ()
+loop "__rawmemchr" + 0x25bb8 5 ; // 0x5cad4 ()
+loop "__rawmemchr" + 0x25b90 5 ; // 0x5caac ()
+
+// Function __libc_start_main ()
+loop "__libc_start_main" + 0x40 5 ; // 0x18928 ()
+loop "__libc_start_main" + 0x2a0 5 ; // 0x18b88 ()
+loop "__libc_start_main" + 0x25c 5 ; // 0x18b44 ()
+loop "__libc_start_main" + 0xcc 5 ; // 0x189b4 ()
+
+// Function _IO_getline_info ()
+loop "_IO_getline_info" + 0x94 5 ; // 0x591c4 ()
+
+// Function __assert_fail_base ()
+loop "__assert_fail_base" + 0x12c 5 ; // 0x19154 ()
+
+// Function __dcigettext ()
+loop "__dcigettext" + 0x1a8 5 ; // 0x1a0d4 ()
+loop "__dcigettext" + 0x2a0 5 ; // 0x1a1cc ()
+	loop "__dcigettext" + 0x3fc 5 ; // 0x1a328 ()
+	loop "__dcigettext" + 0x4ac 5 ; // 0x1a3d8 ()
+loop "__dcigettext" + 0x6c0 5 ; // 0x1a5ec ()
+loop "__dcigettext" + 0x580 5 ; // 0x1a4ac ()
+
+// Function 0x0002433c ()
+loop 0x00024370 5 ; // 0x24370 ()
+
+// Function __handle_registered_modifier_mb ()
+loop "__handle_registered_modifier_mb" + 0x40 5 ; // 0x53020 ()
+	loop "__handle_registered_modifier_mb" + 0x74 5 ; // 0x53054 ()
+
+// Function detach_arena.part.0 ()
+loop "detach_arena.part.0" + 0x71c 5 ; // 0x2f398 ()
+	loop "detach_arena.part.0" + 0x7cc 5 ; // 0x2f448 ()
+loop "detach_arena.part.0" + 0x93c 5 ; // 0x2f5b8 ()
+loop "detach_arena.part.0" + 0xbbc 5 ; // 0x2f838 ()
+loop "detach_arena.part.0" + 0xb4 5 ; // 0x2ed30 ()
+	loop "detach_arena.part.0" + 0x12c 5 ; // 0x2eda8 ()
+		loop "detach_arena.part.0" + 0x244 5 ; // 0x2eec0 ()
+	loop "detach_arena.part.0" + 0x1a4 5 ; // 0x2ee20 ()
+		loop "detach_arena.part.0" + 0x1d8 5 ; // 0x2ee54 ()
+	loop "detach_arena.part.0" + 0x494 5 ; // 0x2f110 ()
+	loop "detach_arena.part.0" + 0x2b0 5 ; // 0x2ef2c ()
+	loop "detach_arena.part.0" + 0x348 5 ; // 0x2efc4 ()
+
+// Function sysmalloc ()
+loop "sysmalloc" + 0x13f8 5 ; // 0x32774 ()
+loop "sysmalloc" + 0x1218 5 ; // 0x32594 ()
+loop "sysmalloc" + 0x1a28 5 ; // 0x32da4 ()
+loop "sysmalloc" + 0x5868 5 ; // 0x36be4 ()
+loop "sysmalloc" + 0x5820 5 ; // 0x36b9c ()
+loop "sysmalloc" + 0x5840 5 ; // 0x36bbc ()
+loop "sysmalloc" + 0x1744 5 ; // 0x32ac0 ()
+loop "sysmalloc" + 0x14b8 5 ; // 0x32834 ()
+loop "sysmalloc" + 0xcc4 5 ; // 0x32040 ()
+loop "sysmalloc" + 0xc5c 5 ; // 0x31fd8 ()
+	loop "sysmalloc" + 0xd44 5 ; // 0x320c0 ()
+loop "sysmalloc" + 0xa68 5 ; // 0x31de4 ()
+
+// Function alloc_perturb ()
+loop "alloc_perturb" + 0x8114 5 ; // 0x36be4 ()
+loop "alloc_perturb" + 0x80cc 5 ; // 0x36b9c ()
+loop "alloc_perturb" + 0x80ec 5 ; // 0x36bbc ()
+
+// Function unlink_chunk.constprop.0 ()
+loop "unlink_chunk.constprop.0" + 0x104 5 ; // 0x2f398 ()
+	loop "unlink_chunk.constprop.0" + 0x1b4 5 ; // 0x2f448 ()
+loop "unlink_chunk.constprop.0" + 0x324 5 ; // 0x2f5b8 ()
+loop "unlink_chunk.constprop.0" + 0x5a4 5 ; // 0x2f838 ()
+
+// Function malloc_consolidate ()
+loop "malloc_consolidate" + 0x20 5 ; // 0x2f398 ()
+	loop "malloc_consolidate" + 0xd0 5 ; // 0x2f448 ()
+loop "malloc_consolidate" + 0x240 5 ; // 0x2f5b8 ()
+loop "malloc_consolidate" + 0x4c0 5 ; // 0x2f838 ()
+
+// Function __fxprintf ()
+loop "__fxprintf" + 0x318 5 ; // 0x2519c ()
+loop "__fxprintf" + 0x43c 5 ; // 0x252c0 ()
+loop "__fxprintf" + 0x17c 5 ; // 0x25000 ()
+
+// Function _IO_fflush ()
+loop "_IO_fflush" + 0x7100 5 ; // 0x2c4e4 ()
+loop "_IO_fflush" + 0x7174 5 ; // 0x2c558 ()
+loop "_IO_fflush" + 0x6dd8 5 ; // 0x2c1bc ()
+loop "_IO_fflush" + 0x6d28 5 ; // 0x2c10c ()
+	loop "_IO_fflush" + 0x6e50 5 ; // 0x2c234 ()
+loop "_IO_fflush" + 0xe0 5 ; // 0x254c4 ()
+
+// Function __malloc_thp_mode ()
+loop "__malloc_thp_mode" + 0x460 5 ; // 0x3be8c ()
+loop "__malloc_thp_mode" + 0x370 5 ; // 0x3bd9c ()
+loop "__malloc_thp_mode" + 0x2c0 5 ; // 0x3bcec ()
+loop "__malloc_thp_mode" + 0x180 5 ; // 0x3bbac ()
+	loop "__malloc_thp_mode" + 0x1b8 5 ; // 0x3bbe4 ()
+		loop "__malloc_thp_mode" + 0x20c 5 ; // 0x3bc38 ()
+
+// Function __malloc_default_thp_pagesize ()
+loop "__malloc_default_thp_pagesize" + 0x540 5 ; // 0x3be8c ()
+loop "__malloc_default_thp_pagesize" + 0x450 5 ; // 0x3bd9c ()
+loop "__malloc_default_thp_pagesize" + 0x3a0 5 ; // 0x3bcec ()
+loop "__malloc_default_thp_pagesize" + 0x260 5 ; // 0x3bbac ()
+	loop "__malloc_default_thp_pagesize" + 0x298 5 ; // 0x3bbe4 ()
+		loop "__malloc_default_thp_pagesize" + 0x2ec 5 ; // 0x3bc38 ()
+loop "__malloc_default_thp_pagesize" + 0x8c 5 ; // 0x3b9d8 ()
+
+// Function strcmp ()
+loop "strcmp" - 0x0 5 ; // 0x357cc ()
+
+// Function strstr ()
+loop "strstr" - 0x0 5 ; // 0x361c8 ()
+	loop "strstr" + 0xfffffc64 5 ; // 0x35e2c ()
+	loop "strstr" + 0xfffffee8 5 ; // 0x360b0 ()
+		loop "strstr" + 0xffffff0c 5 ; // 0x360d4 ()
+			loop "strstr" + 0xffffff68 5 ; // 0x36130 ()
+			loop "strstr" + 0xffffffb8 5 ; // 0x36180 ()
+	loop "strstr" + 0xfffffd2c 5 ; // 0x35ef4 ()
+		loop "strstr" + 0xfffffda0 5 ; // 0x35f68 ()
+		loop "strstr" + 0xfffffe2c 5 ; // 0x35ff4 ()
+	loop "strstr" + 0xfffffc88 5 ; // 0x35e50 ()
+	loop "strstr" + 0xfffffb9c 5 ; // 0x35d64 ()
+	loop "strstr" + 0xfffffc08 5 ; // 0x35dd0 ()
+loop "strstr" + 0xae0 5 ; // 0x36ca8 ()
+loop "strstr" + 0xca8 5 ; // 0x36e70 ()
+loop "strstr" + 0xc48 5 ; // 0x36e10 ()
+loop "strstr" + 0xd34 5 ; // 0x36efc ()
+loop "strstr" + 0xcd4 5 ; // 0x36e9c ()
+loop "strstr" + 0xc1c 5 ; // 0x36de4 ()
+loop "strstr" + 0xbbc 5 ; // 0x36d84 ()
+loop "strstr" + 0x754 5 ; // 0x3691c ()
+loop "strstr" + 0x918 5 ; // 0x36ae0 ()
+loop "strstr" + 0x8b8 5 ; // 0x36a80 ()
+loop "strstr" + 0x9a4 5 ; // 0x36b6c ()
+loop "strstr" + 0x944 5 ; // 0x36b0c ()
+loop "strstr" + 0x88c 5 ; // 0x36a54 ()
+loop "strstr" + 0x82c 5 ; // 0x369f4 ()
+loop "strstr" + 0x3f0 5 ; // 0x365b8 ()
+loop "strstr" + 0x6ec 5 ; // 0x368b4 ()
+loop "strstr" + 0x650 5 ; // 0x36818 ()
+loop "strstr" + 0x4e8 5 ; // 0x366b0 ()
+loop "strstr" + 0x588 5 ; // 0x36750 ()
+loop "strstr" + 0x534 5 ; // 0x366fc ()
+loop "strstr" + 0x6b8 5 ; // 0x36880 ()
+loop "strstr" + 0x608 5 ; // 0x367d0 ()
+loop "strstr" + 0x468 5 ; // 0x36630 ()
+loop "strstr" + 0x3a8 5 ; // 0x36570 ()
+loop "strstr" + 0x5c0 5 ; // 0x36788 ()
+loop "strstr" + 0x330 5 ; // 0x364f8 ()
+loop "strstr" + 0x218 5 ; // 0x363e0 ()
+loop "strstr" + 0x25c 5 ; // 0x36424 ()
+loop "strstr" + 0x130 5 ; // 0x362f8 ()
+	loop "strstr" + 0x138 5 ; // 0x36300 ()
+loop "strstr" + 0xdc 5 ; // 0x362a4 ()
+
+// Function rindex ()
+loop "rindex" + 0x20 5 ; // 0x5c98c ()
+
+// Function strncmp ()
+loop "strncmp" + 0xe0 5 ; // 0x35cc0 ()
+loop "strncmp" + 0x90 5 ; // 0x35c70 ()
+
+// Function sysmalloc_mmap.constprop.0 ()
+loop "sysmalloc_mmap.constprop.0" + 0x94 5 ; // 0x30528 ()
+loop "sysmalloc_mmap.constprop.0" + 0x118 5 ; // 0x305ac ()
+loop "sysmalloc_mmap.constprop.0" + 0x158 5 ; // 0x305ec ()
+loop "sysmalloc_mmap.constprop.0" + 0xd4 5 ; // 0x30568 ()
+
+// Function _dl_aux_init ()
+loop "_dl_aux_init" + 0x60 5 ; // 0x3dda4 ()
+
+// Function __tunables_init ()
+loop "__tunables_init" + 0x48 5 ; // 0x3d0f8 ()
+	loop "__tunables_init" + 0x4c 5 ; // 0x3d0fc ()
+		loop "__tunables_init" + 0x88 5 ; // 0x3d138 ()
+	loop "__tunables_init" + 0xe0 5 ; // 0x3d190 ()
+	loop "__tunables_init" + 0x128 5 ; // 0x3d1d8 ()
+		loop "__tunables_init" + 0x150 5 ; // 0x3d200 ()
+		loop "__tunables_init" + 0x33c 5 ; // 0x3d3ec ()
+		loop "__tunables_init" + 0x384 5 ; // 0x3d434 ()
+	loop "__tunables_init" + 0x42c 5 ; // 0x3d4dc ()
+		loop "__tunables_init" + 0x460 5 ; // 0x3d510 ()
+	loop "__tunables_init" + 0x558 5 ; // 0x3d608 ()
+	loop "__tunables_init" + 0x50c 5 ; // 0x3d5bc ()
+	loop "__tunables_init" + 0x408 5 ; // 0x3d4b8 ()
+	loop "__tunables_init" + 0x2c0 5 ; // 0x3d370 ()
+	loop "__tunables_init" + 0x238 5 ; // 0x3d2e8 ()
+	loop "__tunables_init" + 0x208 5 ; // 0x3d2b8 ()
+
+// Function __libc_setup_tls ()
+loop "__libc_setup_tls" + 0x5c 5 ; // 0x18de8 ()
+
+// Function _dl_discover_osversion ()
+loop "_dl_discover_osversion" + 0x28 5 ; // 0x3edb4 ()
+	loop "_dl_discover_osversion" + 0x54 5 ; // 0x3ede0 ()
+
+// Function __cxa_atexit ()
+loop "__cxa_atexit" + 0xffffff6c 5 ; // 0x1f048 ()
+loop "__cxa_atexit" + 0xffffff04 5 ; // 0x1efe0 ()
+
+// Function __libc_start_call_main ()
+loop "__libc_start_call_main" + 0x70 5 ; // 0x18888 ()
+
+// Function __memchr ()
+loop "__memchr" + 0x24 5 ; // 0x5ca50 ()
+loop "__memchr" + 0xa8 5 ; // 0x5cad4 ()
+loop "__memchr" + 0x80 5 ; // 0x5caac ()
+
+// Function asprintf ()
+loop "asprintf" + 0xb4 5 ; // 0x1fa20 ()
+
+// Function strcpy ()
+loop "strcpy" + 0x14b4 5 ; // 0x36ca8 ()
+loop "strcpy" + 0x167c 5 ; // 0x36e70 ()
+loop "strcpy" + 0x161c 5 ; // 0x36e10 ()
+loop "strcpy" + 0x1708 5 ; // 0x36efc ()
+loop "strcpy" + 0x16a8 5 ; // 0x36e9c ()
+loop "strcpy" + 0x15f0 5 ; // 0x36de4 ()
+loop "strcpy" + 0x1590 5 ; // 0x36d84 ()
+
+// Function ___pthread_rwlock_unlock ()
+loop "___pthread_rwlock_unlock" + 0x13c 5 ; // 0x2ded8 ()
+loop "___pthread_rwlock_unlock" + 0x1d0 5 ; // 0x2df6c ()
+loop "___pthread_rwlock_unlock" + 0x224 5 ; // 0x2dfc0 ()
+loop "___pthread_rwlock_unlock" + 0x1c4 5 ; // 0x2df60 ()
+loop "___pthread_rwlock_unlock" + 0x38 5 ; // 0x2ddd4 ()
+
+// Function ___pthread_rwlock_rdlock ()
+loop "___pthread_rwlock_rdlock" + 0x8c 5 ; // 0x2da90 ()
+	loop "___pthread_rwlock_rdlock" + 0xe4 5 ; // 0x2dae8 ()
+loop "___pthread_rwlock_rdlock" + 0x30 5 ; // 0x2da34 ()
+loop "___pthread_rwlock_rdlock" + 0x68 5 ; // 0x2da6c ()
+loop "___pthread_rwlock_rdlock" + 0x168 5 ; // 0x2db6c ()
+loop "___pthread_rwlock_rdlock" + 0x308 5 ; // 0x2dd0c ()
+loop "___pthread_rwlock_rdlock" + 0x17c 5 ; // 0x2db80 ()
+loop "___pthread_rwlock_rdlock" + 0x274 5 ; // 0x2dc78 ()
+
+// Function tfind ()
+loop "tfind" + 0x34 5 ; // 0x3aac4 ()
+
+// Function getenv ()
+loop "getenv" + 0xd8 5 ; // 0x1ea38 ()
+loop "getenv" + 0x70 5 ; // 0x1e9d0 ()
+
+// Function _nl_find_domain ()
+loop "_nl_find_domain" + 0x584 5 ; // 0x1ad38 ()
+loop "_nl_find_domain" + 0x9f4 5 ; // 0x1b1a8 ()
+loop "_nl_find_domain" + 0xb18 5 ; // 0x1b2cc ()
+	loop "_nl_find_domain" + 0xb20 5 ; // 0x1b2d4 ()
+		loop "_nl_find_domain" + 0xc6c 5 ; // 0x1b420 ()
+loop "_nl_find_domain" + 0x13ec 5 ; // 0x1bba0 ()
+	loop "_nl_find_domain" + 0x13f0 5 ; // 0x1bba4 ()
+		loop "_nl_find_domain" + 0x1584 5 ; // 0x1bd38 ()
+	loop "_nl_find_domain" + 0x17b0 5 ; // 0x1bf64 ()
+loop "_nl_find_domain" + 0x1c49c 5 ; // 0x36c50 ()
+loop "_nl_find_domain" + 0x160c 5 ; // 0x1bdc0 ()
+loop "_nl_find_domain" + 0x1658 5 ; // 0x1be0c ()
+	loop "_nl_find_domain" + 0x16a0 5 ; // 0x1be54 ()
+loop "_nl_find_domain" + 0x878 5 ; // 0x1b02c ()
+loop "_nl_find_domain" + 0x278 5 ; // 0x1aa2c ()
+loop "_nl_find_domain" + 0x10c 5 ; // 0x1a8c0 ()
+
+// Function _nl_find_msg ()
+loop "_nl_find_msg" + 0x6c4 5 ; // 0x19b7c ()
+loop "_nl_find_msg" + 0x76c 5 ; // 0x19c24 ()
+loop "_nl_find_msg" + 0x94c 5 ; // 0x19e04 ()
+loop "_nl_find_msg" + 0x8b4 5 ; // 0x19d6c ()
+loop "_nl_find_msg" + 0x1f0 5 ; // 0x196a8 ()
+	loop "_nl_find_msg" + 0x1f8 5 ; // 0x196b0 ()
+loop "_nl_find_msg" + 0x300 5 ; // 0x197b8 ()
+loop "_nl_find_msg" + 0x820 5 ; // 0x19cd8 ()
+loop "_nl_find_msg" + 0x368 5 ; // 0x19820 ()
+loop "_nl_find_msg" + 0x154 5 ; // 0x1960c ()
+
+// Function ___pthread_rwlock_wrlock ()
+loop "___pthread_rwlock_wrlock" + 0x24 5 ; // 0x2e094 ()
+loop "___pthread_rwlock_wrlock" + 0x388 5 ; // 0x2e3f8 ()
+loop "___pthread_rwlock_wrlock" + 0x78 5 ; // 0x2e0e8 ()
+loop "___pthread_rwlock_wrlock" + 0xcc 5 ; // 0x2e13c ()
+loop "___pthread_rwlock_wrlock" + 0x1a4 5 ; // 0x2e214 ()
+loop "___pthread_rwlock_wrlock" + 0x1e0 5 ; // 0x2e250 ()
+loop "___pthread_rwlock_wrlock" + 0x2dc 5 ; // 0x2e34c ()
+loop "___pthread_rwlock_wrlock" + 0x31c 5 ; // 0x2e38c ()
+loop "___pthread_rwlock_wrlock" + 0x3d8 5 ; // 0x2e448 ()
+loop "___pthread_rwlock_wrlock" + 0x5cc 5 ; // 0x2e63c ()
+loop "___pthread_rwlock_wrlock" + 0x4e0 5 ; // 0x2e550 ()
+
+// Function __tsearch ()
+loop "__tsearch" + 0xac 5 ; // 0x3a9b0 ()
+
+// Function index ()
+loop "index" + 0x54 5 ; // 0x3572c ()
+loop "index" + 0x24 5 ; // 0x356fc ()
+
+// Function __pthread_enable_asynccancel ()
+loop "__pthread_enable_asynccancel" + 0x44 5 ; // 0x5a574 ()
+
+// Function fprintf ()
+loop "fprintf" + 0x124 5 ; // 0x53424 ()
+
+// Function _IO_fputs ()
+loop "_IO_fputs" + 0x124 5 ; // 0x58a1c ()
+
+// Function __vfxprintf ()
+loop "__vfxprintf" + 0xc8 5 ; // 0x24e10 ()
+
+// Function locked_vfxprintf ()
+loop "locked_vfxprintf" + 0x260 5 ; // 0x24e10 ()
+
+// Function _IO_un_link ()
+loop "_IO_un_link" - 0x0 5 ; // 0x2ad78 ()
+	loop "_IO_un_link" + 0xfffffeec 5 ; // 0x2ac64 ()
+	loop "_IO_un_link" + 0xfffffe2c 5 ; // 0x2aba4 ()
+	loop "_IO_un_link" + 0xfffffdc0 5 ; // 0x2ab38 ()
+
+// Function __gconv_release_step ()
+loop "__gconv_release_step" + 0x2c0 5 ; // 0x3f9d4 ()
+	loop "__gconv_release_step" + 0x2f8 5 ; // 0x3fa0c ()
+	loop "__gconv_release_step" + 0x364 5 ; // 0x3fa78 ()
+		loop "__gconv_release_step" + 0x4cc 5 ; // 0x3fbe0 ()
+			loop "__gconv_release_step" + 0x4f0 5 ; // 0x3fc04 ()
+		loop "__gconv_release_step" + 0x534 5 ; // 0x3fc48 ()
+		loop "__gconv_release_step" + 0x42c 5 ; // 0x3fb40 ()
+		loop "__gconv_release_step" + 0x3d0 5 ; // 0x3fae4 ()
+loop "__gconv_release_step" + 0x644 5 ; // 0x3fd58 ()
+loop "__gconv_release_step" + 0x6d8 5 ; // 0x3fdec ()
+loop "__gconv_release_step" + 0x814 5 ; // 0x3ff28 ()
+loop "__gconv_release_step" + 0x180 5 ; // 0x3f894 ()
+loop "__gconv_release_step" + 0xa90 5 ; // 0x401a4 ()
+
+// Function _IO_flush_all_lockp ()
+loop "_IO_flush_all_lockp" + 0x544 5 ; // 0x2c4e4 ()
+loop "_IO_flush_all_lockp" + 0x5b8 5 ; // 0x2c558 ()
+loop "_IO_flush_all_lockp" + 0x21c 5 ; // 0x2c1bc ()
+loop "_IO_flush_all_lockp" + 0x16c 5 ; // 0x2c10c ()
+	loop "_IO_flush_all_lockp" + 0x294 5 ; // 0x2c234 ()
+
+// Function __strnlen ()
+loop "__strnlen" + 0x2c 5 ; // 0x35afc ()
+loop "__strnlen" + 0x70 5 ; // 0x35b40 ()
+
+// Function memcmp ()
+loop "memcmp" + 0x804 5 ; // 0x36ca8 ()
+loop "memcmp" + 0x9cc 5 ; // 0x36e70 ()
+loop "memcmp" + 0x96c 5 ; // 0x36e10 ()
+loop "memcmp" + 0xa58 5 ; // 0x36efc ()
+loop "memcmp" + 0x9f8 5 ; // 0x36e9c ()
+loop "memcmp" + 0x940 5 ; // 0x36de4 ()
+loop "memcmp" + 0x8e0 5 ; // 0x36d84 ()
+loop "memcmp" + 0x478 5 ; // 0x3691c ()
+loop "memcmp" + 0x63c 5 ; // 0x36ae0 ()
+loop "memcmp" + 0x5dc 5 ; // 0x36a80 ()
+loop "memcmp" + 0x6c8 5 ; // 0x36b6c ()
+loop "memcmp" + 0x668 5 ; // 0x36b0c ()
+loop "memcmp" + 0x5b0 5 ; // 0x36a54 ()
+loop "memcmp" + 0x550 5 ; // 0x369f4 ()
+loop "memcmp" + 0x114 5 ; // 0x365b8 ()
+loop "memcmp" + 0x410 5 ; // 0x368b4 ()
+loop "memcmp" + 0x374 5 ; // 0x36818 ()
+loop "memcmp" + 0x20c 5 ; // 0x366b0 ()
+loop "memcmp" + 0x2ac 5 ; // 0x36750 ()
+loop "memcmp" + 0x258 5 ; // 0x366fc ()
+loop "memcmp" + 0x3dc 5 ; // 0x36880 ()
+loop "memcmp" + 0x32c 5 ; // 0x367d0 ()
+loop "memcmp" + 0x18c 5 ; // 0x36630 ()
+loop "memcmp" + 0xcc 5 ; // 0x36570 ()
+loop "memcmp" + 0x2e4 5 ; // 0x36788 ()
+loop "memcmp" + 0x54 5 ; // 0x364f8 ()
+
+// Function _dl_strtoul ()
+loop "_dl_strtoul" + 0x9c 5 ; // 0x64630 ()
+loop "_dl_strtoul" + 0x20 5 ; // 0x645b4 ()
+
+// Function _dl_fatal_printf ()
+loop "_dl_fatal_printf" + 0x5dc 5 ; // 0x657e8 ()
+loop "_dl_fatal_printf" + 0x4b4 5 ; // 0x656c0 ()
+loop "_dl_fatal_printf" + 0xa0 5 ; // 0x652ac ()
+
+// Function _dl_tls_static_surplus_init ()
+loop "_dl_tls_static_surplus_init" + 0x22c 5 ; // 0x3c4f4 ()
+	loop "_dl_tls_static_surplus_init" + 0x240 5 ; // 0x3c508 ()
+loop "_dl_tls_static_surplus_init" + 0x118 5 ; // 0x3c3e0 ()
+
+// Function __pthread_tunables_init ()
+loop "__pthread_tunables_init" + 0x1c4 5 ; // 0x5ad64 ()
+	loop "__pthread_tunables_init" + 0x898 5 ; // 0x5b438 ()
+
+// Function _dl_non_dynamic_init ()
+loop "_dl_non_dynamic_init" + 0x280e0 5 ; // 0x662e0 ()
+	loop "_dl_non_dynamic_init" + 0x2813c 5 ; // 0x6633c ()
+	loop "_dl_non_dynamic_init" + 0x296b0 5 ; // 0x678b0 ()
+	loop "_dl_non_dynamic_init" + 0x289c0 5 ; // 0x66bc0 ()
+	loop "_dl_non_dynamic_init" + 0x2966c 5 ; // 0x6786c ()
+loop "_dl_non_dynamic_init" + 0x28304 5 ; // 0x66504 ()
+	loop "_dl_non_dynamic_init" + 0x28f70 5 ; // 0x67170 ()
+	loop "_dl_non_dynamic_init" + 0x28384 5 ; // 0x66584 ()
+	loop "_dl_non_dynamic_init" + 0x28fc0 5 ; // 0x671c0 ()
+loop "_dl_non_dynamic_init" + 0x29e20 5 ; // 0x68020 ()
+loop "_dl_non_dynamic_init" + 0x8d8 5 ; // 0x3ead8 ()
+loop "_dl_non_dynamic_init" + 0x774 5 ; // 0x3e974 ()
+loop "_dl_non_dynamic_init" + 0x714 5 ; // 0x3e914 ()
+loop "_dl_non_dynamic_init" + 0xf0 5 ; // 0x3e2f0 ()
+loop "_dl_non_dynamic_init" + 0x19c 5 ; // 0x3e39c ()
+
+// Function __new_exitfn ()
+loop "__new_exitfn" + 0x30 5 ; // 0x1ee48 ()
+	loop "__new_exitfn" + 0x50 5 ; // 0x1ee68 ()
+
+// Function __nptl_deallocate_tsd ()
+loop "__nptl_deallocate_tsd" + 0x100 5 ; // 0x2d984 ()
+loop "__nptl_deallocate_tsd" + 0x44 5 ; // 0x2d8c8 ()
+	loop "__nptl_deallocate_tsd" + 0x6c 5 ; // 0x2d8f0 ()
+		loop "__nptl_deallocate_tsd" + 0x94 5 ; // 0x2d918 ()
+
+// Function exit ()
+loop "exit" + 0x4c 5 ; // 0x1ee48 ()
+	loop "exit" + 0x6c 5 ; // 0x1ee68 ()
+
+// Function save_for_backup ()
+loop "save_for_backup" + 0x78 5 ; // 0x2a8b4 ()
+loop "save_for_backup" + 0x38 5 ; // 0x2a874 ()
+
+// Function _nl_make_l10nflist ()
+loop "_nl_make_l10nflist" + 0x360 5 ; // 0x1d0fc ()
+loop "_nl_make_l10nflist" + 0x318 5 ; // 0x1d0b4 ()
+loop "_nl_make_l10nflist" + 0x2c4 5 ; // 0x1d060 ()
+loop "_nl_make_l10nflist" + 0x200 5 ; // 0x1cf9c ()
+loop "_nl_make_l10nflist" + 0x24c 5 ; // 0x1cfe8 ()
+loop "_nl_make_l10nflist" + 0x170 5 ; // 0x1cf0c ()
+loop "_nl_make_l10nflist" + 0xe0 5 ; // 0x1ce7c ()
+
+// Function _nl_expand_alias ()
+loop "_nl_expand_alias" + 0x1ac 5 ; // 0x1cd10 ()
+loop "_nl_expand_alias" + 0x108 5 ; // 0x1cc6c ()
+loop "_nl_expand_alias" + 0x84 5 ; // 0x1cbe8 ()
+	loop "_nl_expand_alias" + 0x8c 5 ; // 0x1cbf0 ()
+		loop "_nl_expand_alias" + 0xa0 5 ; // 0x1cc04 ()
+			loop "_nl_expand_alias" + 0xc0 5 ; // 0x1cc24 ()
+			loop "_nl_expand_alias" + 0xa8 5 ; // 0x1cc0c ()
+
+// Function _nl_explode_name ()
+loop "_nl_explode_name" + 0x68 5 ; // 0x1d4c4 ()
+loop "_nl_explode_name" + 0x168 5 ; // 0x1d5c4 ()
+loop "_nl_explode_name" + 0x124 5 ; // 0x1d580 ()
+
+// Function __gettext_extract_plural ()
+loop "__gettext_extract_plural" + 0x15c 5 ; // 0x1e310 ()
+loop "__gettext_extract_plural" + 0x90 5 ; // 0x1e244 ()
+
+// Function __libc_calloc ()
+loop "__libc_calloc" + 0x4a4 5 ; // 0x34ae8 ()
+	loop "__libc_calloc" + 0x548 5 ; // 0x34b8c ()
+		loop "__libc_calloc" + 0x570 5 ; // 0x34bb4 ()
+	loop "__libc_calloc" + 0x5e4 5 ; // 0x34c28 ()
+loop "__libc_calloc" + 0x25a0 5 ; // 0x36be4 ()
+loop "__libc_calloc" + 0x2558 5 ; // 0x36b9c ()
+loop "__libc_calloc" + 0x2578 5 ; // 0x36bbc ()
+loop "__libc_calloc" + 0x224 5 ; // 0x34868 ()
+
+// Function __hash_string ()
+loop "__hash_string" + 0x10 5 ; // 0x1e310 ()
+
+// Function _nl_load_domain ()
+loop "_nl_load_domain" + 0x2cc 5 ; // 0x1ad38 ()
+loop "_nl_load_domain" + 0x73c 5 ; // 0x1b1a8 ()
+loop "_nl_load_domain" + 0x860 5 ; // 0x1b2cc ()
+	loop "_nl_load_domain" + 0x868 5 ; // 0x1b2d4 ()
+		loop "_nl_load_domain" + 0x9b4 5 ; // 0x1b420 ()
+loop "_nl_load_domain" + 0x1134 5 ; // 0x1bba0 ()
+	loop "_nl_load_domain" + 0x1138 5 ; // 0x1bba4 ()
+		loop "_nl_load_domain" + 0x12cc 5 ; // 0x1bd38 ()
+	loop "_nl_load_domain" + 0x14f8 5 ; // 0x1bf64 ()
+loop "_nl_load_domain" + 0x1c1e4 5 ; // 0x36c50 ()
+loop "_nl_load_domain" + 0x1354 5 ; // 0x1bdc0 ()
+loop "_nl_load_domain" + 0x13a0 5 ; // 0x1be0c ()
+	loop "_nl_load_domain" + 0x13e8 5 ; // 0x1be54 ()
+loop "_nl_load_domain" + 0x5c0 5 ; // 0x1b02c ()
+
+// Function __gconv ()
+loop "__gconv" + 0x250 5 ; // 0x3f690 ()
+loop "__gconv" + 0x1388 5 ; // 0x407c8 ()
+loop "__gconv" + 0x1334 5 ; // 0x40774 ()
+loop "__gconv" + 0x194 5 ; // 0x3f5d4 ()
+loop "__gconv" + 0xe4 5 ; // 0x3f524 ()
+
+// Function strdup ()
+loop "strdup" + 0x12f8 5 ; // 0x36ca8 ()
+loop "strdup" + 0x14c0 5 ; // 0x36e70 ()
+loop "strdup" + 0x1460 5 ; // 0x36e10 ()
+loop "strdup" + 0x154c 5 ; // 0x36efc ()
+loop "strdup" + 0x14ec 5 ; // 0x36e9c ()
+loop "strdup" + 0x1434 5 ; // 0x36de4 ()
+loop "strdup" + 0x13d4 5 ; // 0x36d84 ()
+
+// Function strcspn ()
+loop "strcspn" + 0x1488 5 ; // 0x36ca8 ()
+loop "strcspn" + 0x1650 5 ; // 0x36e70 ()
+loop "strcspn" + 0x15f0 5 ; // 0x36e10 ()
+loop "strcspn" + 0x16dc 5 ; // 0x36efc ()
+loop "strcspn" + 0x167c 5 ; // 0x36e9c ()
+loop "strcspn" + 0x15c4 5 ; // 0x36de4 ()
+loop "strcspn" + 0x1564 5 ; // 0x36d84 ()
+loop "strcspn" + 0x98 5 ; // 0x358b8 ()
+loop "strcspn" + 0xf8 5 ; // 0x35918 ()
+
+// Function __gconv_create_spec ()
+loop "__gconv_create_spec" + 0x1d0 5 ; // 0x4aff4 ()
+loop "__gconv_create_spec" + 0x11c 5 ; // 0x4af40 ()
+
+// Function __gconv_open ()
+loop "__gconv_open" + 0x274 5 ; // 0x3f338 ()
+loop "__gconv_open" + 0x2e4 5 ; // 0x3f3a8 ()
+
+// Function __vfwprintf_internal ()
+loop "__vfwprintf_internal" + 0x2b4 5 ; // 0x55f98 ()
+loop "__vfwprintf_internal" + 0x2240 5 ; // 0x57f24 ()
+loop "__vfwprintf_internal" + 0x20a4 5 ; // 0x57d88 ()
+
+// Function __gconv_get_builtin_trans ()
+loop "__gconv_get_builtin_trans" + 0x28 5 ; // 0x41870 ()
+
+// Function _dl_mcount_wrapper_check ()
+loop "_dl_mcount_wrapper_check" + 0x27fbc 5 ; // 0x65cc8 ()
+loop "_dl_mcount_wrapper_check" + 0x27cc8 5 ; // 0x659d4 ()
+loop "_dl_mcount_wrapper_check" + 0x27e64 5 ; // 0x65b70 ()
+loop "_dl_mcount_wrapper_check" + 0x27ed8 5 ; // 0x65be4 ()
+loop "_dl_mcount_wrapper_check" + 0x27f78 5 ; // 0x65c84 ()
+loop "_dl_mcount_wrapper_check" + 0x27d50 5 ; // 0x65a5c ()
+	loop "_dl_mcount_wrapper_check" + 0x27d78 5 ; // 0x65a84 ()
+	loop "_dl_mcount_wrapper_check" + 0x27e10 5 ; // 0x65b1c ()
+
+// Function _IO_wdo_write ()
+loop "_IO_wdo_write" - 0x0 5 ; // 0x26ca4 ()
+	loop "_IO_wdo_write" + 0x70 5 ; // 0x26d14 ()
+
+// Function _dl_debug_vdprintf ()
+loop "_dl_debug_vdprintf" + 0x3c 5 ; // 0x64c7c ()
+	loop "_dl_debug_vdprintf" + 0x68 5 ; // 0x64ca8 ()
+
+// Function _dl_lookup_symbol_x ()
+loop "_dl_lookup_symbol_x" + 0xd4 5 ; // 0x63668 ()
+loop "_dl_lookup_symbol_x" + 0x224 5 ; // 0x637b8 ()
+loop "_dl_lookup_symbol_x" + 0x2dc 5 ; // 0x63870 ()
+loop "_dl_lookup_symbol_x" + 0x4c 5 ; // 0x635e0 ()
+
+// Function _dl_init_paths ()
+loop "_dl_init_paths" + 0x1f0 5 ; // 0x605f0 ()
+
+// Function _dl_signal_error ()
+loop "_dl_signal_error" + 0x28200 5 ; // 0x65cc8 ()
+loop "_dl_signal_error" + 0x27f0c 5 ; // 0x659d4 ()
+loop "_dl_signal_error" + 0x280a8 5 ; // 0x65b70 ()
+loop "_dl_signal_error" + 0x2811c 5 ; // 0x65be4 ()
+loop "_dl_signal_error" + 0x281bc 5 ; // 0x65c84 ()
+loop "_dl_signal_error" + 0x27f94 5 ; // 0x65a5c ()
+	loop "_dl_signal_error" + 0x27fbc 5 ; // 0x65a84 ()
+	loop "_dl_signal_error" + 0x28054 5 ; // 0x65b1c ()
+
+// Function _dl_protect_relro ()
+loop "_dl_protect_relro" + 0x230 5 ; // 0x662e0 ()
+	loop "_dl_protect_relro" + 0x28c 5 ; // 0x6633c ()
+	loop "_dl_protect_relro" + 0x1800 5 ; // 0x678b0 ()
+	loop "_dl_protect_relro" + 0xb10 5 ; // 0x66bc0 ()
+	loop "_dl_protect_relro" + 0x17bc 5 ; // 0x6786c ()
+loop "_dl_protect_relro" + 0x454 5 ; // 0x66504 ()
+	loop "_dl_protect_relro" + 0x10c0 5 ; // 0x67170 ()
+	loop "_dl_protect_relro" + 0x4d4 5 ; // 0x66584 ()
+	loop "_dl_protect_relro" + 0x1110 5 ; // 0x671c0 ()
+loop "_dl_protect_relro" + 0x1f70 5 ; // 0x68020 ()
+
+// Function _dl_reloc_bad_type ()
+loop "_dl_reloc_bad_type" + 0x1a4 5 ; // 0x662e0 ()
+	loop "_dl_reloc_bad_type" + 0x200 5 ; // 0x6633c ()
+	loop "_dl_reloc_bad_type" + 0x1774 5 ; // 0x678b0 ()
+	loop "_dl_reloc_bad_type" + 0xa84 5 ; // 0x66bc0 ()
+	loop "_dl_reloc_bad_type" + 0x1730 5 ; // 0x6786c ()
+loop "_dl_reloc_bad_type" + 0x3c8 5 ; // 0x66504 ()
+	loop "_dl_reloc_bad_type" + 0x1034 5 ; // 0x67170 ()
+	loop "_dl_reloc_bad_type" + 0x448 5 ; // 0x66584 ()
+	loop "_dl_reloc_bad_type" + 0x1084 5 ; // 0x671c0 ()
+loop "_dl_reloc_bad_type" + 0x1ee4 5 ; // 0x68020 ()
+
+// Function _dl_allocate_static_tls ()
+loop "_dl_allocate_static_tls" + 0x308 5 ; // 0x662e0 ()
+	loop "_dl_allocate_static_tls" + 0x364 5 ; // 0x6633c ()
+	loop "_dl_allocate_static_tls" + 0x18d8 5 ; // 0x678b0 ()
+	loop "_dl_allocate_static_tls" + 0xbe8 5 ; // 0x66bc0 ()
+	loop "_dl_allocate_static_tls" + 0x1894 5 ; // 0x6786c ()
+loop "_dl_allocate_static_tls" + 0x52c 5 ; // 0x66504 ()
+	loop "_dl_allocate_static_tls" + 0x1198 5 ; // 0x67170 ()
+	loop "_dl_allocate_static_tls" + 0x5ac 5 ; // 0x66584 ()
+	loop "_dl_allocate_static_tls" + 0x11e8 5 ; // 0x671c0 ()
+loop "_dl_allocate_static_tls" + 0x2048 5 ; // 0x68020 ()
+loop "_dl_allocate_static_tls" + 0xfffd6d68 5 ; // 0x3cd40 ()
+loop "_dl_allocate_static_tls" + 0xfffd6d2c 5 ; // 0x3cd04 ()
+loop "_dl_allocate_static_tls" + 0xfffd6cdc 5 ; // 0x3ccb4 ()
+
+// Function _dl_find_object_init ()
+loop "_dl_find_object_init" + 0xfffffac4 5 ; // 0x6cf88 ()
+	loop "_dl_find_object_init" + 0xfffffae4 5 ; // 0x6cfa8 ()
+
+// Function __unsetenv ()
+loop "__unsetenv" + 0xb8 5 ; // 0x4e1c0 ()
+	loop "__unsetenv" + 0x118 5 ; // 0x4e220 ()
+loop "__unsetenv" + 0xcc 5 ; // 0x4e1d4 ()
+
+// Function _dl_new_object ()
+loop "_dl_new_object" + 0xfc 5 ; // 0x6490c ()
+loop "_dl_new_object" + 0x168 5 ; // 0x64978 ()
+loop "_dl_new_object" + 0x1d4 5 ; // 0x649e4 ()
+
+// Function _dl_setup_hash ()
+loop "_dl_setup_hash" + 0x148 5 ; // 0x684b8 ()
+loop "_dl_setup_hash" + 0x1cc 5 ; // 0x6853c ()
+loop "_dl_setup_hash" + 0x22c 5 ; // 0x6859c ()
+
+// Function _dl_add_to_namespace_list ()
+loop "_dl_add_to_namespace_list" + 0xffff788c 5 ; // 0x5bfdc ()
+loop "_dl_add_to_namespace_list" + 0xffff7284 5 ; // 0x5b9d4 ()
+loop "_dl_add_to_namespace_list" + 0xffff7da0 5 ; // 0x5c4f0 ()
+loop "_dl_add_to_namespace_list" + 0xffff7eb0 5 ; // 0x5c600 ()
+loop "_dl_add_to_namespace_list" + 0xffff74d0 5 ; // 0x5bc20 ()
+loop "_dl_add_to_namespace_list" + 0xffff7434 5 ; // 0x5bb84 ()
+loop "_dl_add_to_namespace_list" + 0xffff7580 5 ; // 0x5bcd0 ()
+loop "_dl_add_to_namespace_list" + 0xffff7548 5 ; // 0x5bc98 ()
+loop "_dl_add_to_namespace_list" + 0xffff771c 5 ; // 0x5be6c ()
+loop "_dl_add_to_namespace_list" + 0xffff7790 5 ; // 0x5bee0 ()
+loop "_dl_add_to_namespace_list" + 0x4c 5 ; // 0x6479c ()
+
+// Function __run_exit_handlers ()
+loop "__run_exit_handlers" + 0x9c 5 ; // 0x1eb0c ()
+	loop "__run_exit_handlers" + 0x284 5 ; // 0x1ecf4 ()
+	loop "__run_exit_handlers" + 0x214 5 ; // 0x1ec84 ()
+	loop "__run_exit_handlers" + 0x1b4 5 ; // 0x1ec24 ()
+	loop "__run_exit_handlers" + 0xb4 5 ; // 0x1eb24 ()
+	loop "__run_exit_handlers" + 0x100 5 ; // 0x1eb70 ()
+	loop "__run_exit_handlers" + 0x2fc 5 ; // 0x1ed6c ()
+
+// Function memmove ()
+loop "memmove" + 0x3c8 5 ; // 0x36ca8 ()
+loop "memmove" + 0x590 5 ; // 0x36e70 ()
+loop "memmove" + 0x530 5 ; // 0x36e10 ()
+loop "memmove" + 0x61c 5 ; // 0x36efc ()
+loop "memmove" + 0x5bc 5 ; // 0x36e9c ()
+loop "memmove" + 0x504 5 ; // 0x36de4 ()
+loop "memmove" + 0x4a4 5 ; // 0x36d84 ()
+loop "memmove" + 0x3c 5 ; // 0x3691c ()
+loop "memmove" + 0x200 5 ; // 0x36ae0 ()
+loop "memmove" + 0x1a0 5 ; // 0x36a80 ()
+loop "memmove" + 0x28c 5 ; // 0x36b6c ()
+loop "memmove" + 0x22c 5 ; // 0x36b0c ()
+loop "memmove" + 0x174 5 ; // 0x36a54 ()
+loop "memmove" + 0x114 5 ; // 0x369f4 ()
+
+// Function __strcasecmp_l ()
+loop "__strcasecmp_l" + 0x14 5 ; // 0x36c50 ()
+
+// Function read_alias_file ()
+loop "read_alias_file" + 0x688 5 ; // 0x1cd10 ()
+loop "read_alias_file" + 0x5e4 5 ; // 0x1cc6c ()
+loop "read_alias_file" + 0x560 5 ; // 0x1cbe8 ()
+	loop "read_alias_file" + 0x568 5 ; // 0x1cbf0 ()
+		loop "read_alias_file" + 0x57c 5 ; // 0x1cc04 ()
+			loop "read_alias_file" + 0x59c 5 ; // 0x1cc24 ()
+			loop "read_alias_file" + 0x584 5 ; // 0x1cc0c ()
+loop "read_alias_file" + 0xb0 5 ; // 0x1c738 ()
+	loop "read_alias_file" + 0x1ec 5 ; // 0x1c874 ()
+	loop "read_alias_file" + 0x1b4 5 ; // 0x1c83c ()
+	loop "read_alias_file" + 0x25c 5 ; // 0x1c8e4 ()
+	loop "read_alias_file" + 0x454 5 ; // 0x1cadc ()
+	loop "read_alias_file" + 0x100 5 ; // 0x1c788 ()
+
+// Function _nl_normalize_codeset ()
+loop "_nl_normalize_codeset" + 0x30 5 ; // 0x1d334 ()
+loop "_nl_normalize_codeset" + 0xac 5 ; // 0x1d3b0 ()
+
+// Function __gettextparse ()
+loop "__gettextparse" + 0x88 5 ; // 0x1d730 ()
+	loop "__gettextparse" + 0x460 5 ; // 0x1db08 ()
+	loop "__gettextparse" + 0x1d0 5 ; // 0x1d878 ()
+loop "__gettextparse" + 0xc68 5 ; // 0x1e310 ()
+loop "__gettextparse" + 0xb9c 5 ; // 0x1e244 ()
+
+// Function gconv_parse_code ()
+loop "gconv_parse_code" + 0x24 5 ; // 0x4acc4 ()
+	loop "gconv_parse_code" + 0x78 5 ; // 0x4ad18 ()
+	loop "gconv_parse_code" + 0xa0 5 ; // 0x4ad40 ()
+
+// Function __gconv_find_transform ()
+loop "__gconv_find_transform" + 0x208 5 ; // 0x4053c ()
+loop "__gconv_find_transform" + 0x494 5 ; // 0x407c8 ()
+loop "__gconv_find_transform" + 0x440 5 ; // 0x40774 ()
+loop "__gconv_find_transform" + 0x2e4 5 ; // 0x40618 ()
+loop "__gconv_find_transform" + 0x1b4 5 ; // 0x404e8 ()
+loop "__gconv_find_transform" + 0xac 5 ; // 0x403e0 ()
+
+// Function __gconv_close_transform ()
+loop "__gconv_close_transform" + 0x120 5 ; // 0x407c8 ()
+loop "__gconv_close_transform" + 0xcc 5 ; // 0x40774 ()
+
+// Function __mbsrtowcs_l ()
+loop "__mbsrtowcs_l" + 0x2b4 5 ; // 0x37f44 ()
+loop "__mbsrtowcs_l" + 0x100 5 ; // 0x37d90 ()
+
+// Function wcschrnul ()
+loop "wcschrnul" + 0x10 5 ; // 0x5d710 ()
+
+// Function 0x00053c7c ()
+loop 0x000557dc 5 ; // 0x557dc ()
+loop 0x00055860 5 ; // 0x55860 ()
+loop 0x00054450 5 ; // 0x54450 ()
+loop 0x000544cc 5 ; // 0x544cc ()
+loop 0x00054144 5 ; // 0x54144 ()
+loop 0x00054ae8 5 ; // 0x54ae8 ()
+loop 0x00053f14 5 ; // 0x53f14 ()
+loop 0x00055f98 5 ; // 0x55f98 ()
+loop 0x00057f24 5 ; // 0x57f24 ()
+loop 0x00057d88 5 ; // 0x57d88 ()
+loop 0x00053e78 5 ; // 0x53e78 ()
+loop 0x00053d60 5 ; // 0x53d60 ()
+
+// Function __libc_dlopen_mode ()
+loop "__libc_dlopen_mode" + 0x47c 5 ; // 0x69560 ()
+loop "__libc_dlopen_mode" + 0x364 5 ; // 0x69448 ()
+
+// Function __libc_dlsym ()
+loop "__libc_dlsym" + 0x2ec 5 ; // 0x69560 ()
+loop "__libc_dlsym" + 0x1d4 5 ; // 0x69448 ()
+
+// Function __udivmoddi4 ()
+loop "__udivmoddi4" + 0xc8 5 ; // 0x739b4 ()
+
+// Function _itoa ()
+loop "_itoa" + 0x1fc 5 ; // 0x4ed1c ()
+loop "_itoa" + 0x740 5 ; // 0x4f260 ()
+loop "_itoa" + 0x60c 5 ; // 0x4f12c ()
+loop "_itoa" + 0x564 5 ; // 0x4f084 ()
+loop "_itoa" + 0x1e0 5 ; // 0x4ed00 ()
+loop "_itoa" + 0xc8 5 ; // 0x4ebe8 ()
+	loop "_itoa" + 0xe8 5 ; // 0x4ec08 ()
+	loop "_itoa" + 0x3dc 5 ; // 0x4eefc ()
+loop "_itoa" + 0x1b8 5 ; // 0x4ecd8 ()
+loop "_itoa" + 0x178 5 ; // 0x4ec98 ()
+
+// Function __snprintf ()
+loop "__snprintf" + 0xa4 5 ; // 0x53424 ()
+
+// Function setitimer ()
+loop "setitimer" + 0xf0 5 ; // 0x715b8 ()
+
+// Function do_lookup_x ()
+loop "do_lookup_x" + 0xf4 5 ; // 0x62aa4 ()
+	loop "do_lookup_x" + 0x204 5 ; // 0x62bb4 ()
+	loop "do_lookup_x" + 0x8fc 5 ; // 0x632ac ()
+	loop "do_lookup_x" + 0x834 5 ; // 0x631e4 ()
+	loop "do_lookup_x" + 0x78c 5 ; // 0x6313c ()
+	loop "do_lookup_x" + 0x320 5 ; // 0x62cd0 ()
+loop "do_lookup_x" + 0xcb8 5 ; // 0x63668 ()
+loop "do_lookup_x" + 0xe08 5 ; // 0x637b8 ()
+loop "do_lookup_x" + 0xec0 5 ; // 0x63870 ()
+loop "do_lookup_x" + 0xc30 5 ; // 0x635e0 ()
+loop "do_lookup_x" + 0x680 5 ; // 0x63030 ()
+	loop "do_lookup_x" + 0x698 5 ; // 0x63048 ()
+loop "do_lookup_x" + 0x610 5 ; // 0x62fc0 ()
+	loop "do_lookup_x" + 0x628 5 ; // 0x62fd8 ()
+loop "do_lookup_x" + 0x9a8 5 ; // 0x63358 ()
+	loop "do_lookup_x" + 0x9ec 5 ; // 0x6339c ()
+		loop "do_lookup_x" + 0xa04 5 ; // 0x633b4 ()
+loop "do_lookup_x" + 0x4cc 5 ; // 0x62e7c ()
+	loop "do_lookup_x" + 0x4f0 5 ; // 0x62ea0 ()
+
+// Function _dl_exception_create_format ()
+loop "_dl_exception_create_format" + 0x144 5 ; // 0x5ea5c ()
+loop "_dl_exception_create_format" + 0x60 5 ; // 0x5e978 ()
+
+// Function _dl_signal_exception ()
+loop "_dl_signal_exception" + 0x28254 5 ; // 0x65cc8 ()
+loop "_dl_signal_exception" + 0x27f60 5 ; // 0x659d4 ()
+loop "_dl_signal_exception" + 0x280fc 5 ; // 0x65b70 ()
+loop "_dl_signal_exception" + 0x28170 5 ; // 0x65be4 ()
+loop "_dl_signal_exception" + 0x28210 5 ; // 0x65c84 ()
+loop "_dl_signal_exception" + 0x27fe8 5 ; // 0x65a5c ()
+	loop "_dl_signal_exception" + 0x28010 5 ; // 0x65a84 ()
+	loop "_dl_signal_exception" + 0x280a8 5 ; // 0x65b1c ()
+
+// Function fillin_rpath.isra.0 ()
+loop "fillin_rpath.isra.0" + 0x2e4 5 ; // 0x60224 ()
+loop "fillin_rpath.isra.0" + 0x384 5 ; // 0x602c4 ()
+	loop "fillin_rpath.isra.0" + 0x3c0 5 ; // 0x60300 ()
+	loop "fillin_rpath.isra.0" + 0x3a8 5 ; // 0x602e8 ()
+loop "fillin_rpath.isra.0" + 0x38 5 ; // 0x5ff78 ()
+	loop "fillin_rpath.isra.0" + 0xdc 5 ; // 0x6001c ()
+	loop "fillin_rpath.isra.0" + 0x110 5 ; // 0x60050 ()
+	loop "fillin_rpath.isra.0" + 0x94 5 ; // 0x5ffd4 ()
+
+// Function decompose_rpath ()
+loop "decompose_rpath" + 0x78 5 ; // 0x60224 ()
+loop "decompose_rpath" + 0x118 5 ; // 0x602c4 ()
+	loop "decompose_rpath" + 0x154 5 ; // 0x60300 ()
+	loop "decompose_rpath" + 0x13c 5 ; // 0x602e8 ()
+
+// Function _dl_catch_exception ()
+loop "_dl_catch_exception" + 0x2819c 5 ; // 0x65cc8 ()
+loop "_dl_catch_exception" + 0x27ea8 5 ; // 0x659d4 ()
+loop "_dl_catch_exception" + 0x28044 5 ; // 0x65b70 ()
+loop "_dl_catch_exception" + 0x280b8 5 ; // 0x65be4 ()
+loop "_dl_catch_exception" + 0x28158 5 ; // 0x65c84 ()
+loop "_dl_catch_exception" + 0x27f30 5 ; // 0x65a5c ()
+	loop "_dl_catch_exception" + 0x27f58 5 ; // 0x65a84 ()
+	loop "_dl_catch_exception" + 0x27ff0 5 ; // 0x65b1c ()
+
+// Function _dl_find_object_from_map ()
+loop "_dl_find_object_from_map" + 0x3c 5 ; // 0x6cd20 ()
+
+// Function _dlfo_process_initial ()
+loop "_dlfo_process_initial" + 0x68 5 ; // 0x6cdc8 ()
+loop "_dlfo_process_initial" + 0x170 5 ; // 0x6ced0 ()
+
+// Function _dlfo_sort_mappings.part.0 ()
+loop "_dlfo_sort_mappings.part.0" + 0x2c 5 ; // 0x6cf88 ()
+	loop "_dlfo_sort_mappings.part.0" + 0x4c 5 ; // 0x6cfa8 ()
+
+// Function pthread_mutex_lock ()
+loop "pthread_mutex_lock" + 0xfffff8a0 5 ; // 0x5ad64 ()
+	loop "pthread_mutex_lock" + 0xffffff74 5 ; // 0x5b438 ()
+loop "pthread_mutex_lock" + 0x510 5 ; // 0x5b9d4 ()
+loop "pthread_mutex_lock" + 0x102c 5 ; // 0x5c4f0 ()
+loop "pthread_mutex_lock" + 0x113c 5 ; // 0x5c600 ()
+loop "pthread_mutex_lock" + 0x75c 5 ; // 0x5bc20 ()
+loop "pthread_mutex_lock" + 0x6c0 5 ; // 0x5bb84 ()
+loop "pthread_mutex_lock" + 0x80c 5 ; // 0x5bcd0 ()
+loop "pthread_mutex_lock" + 0x7d4 5 ; // 0x5bc98 ()
+loop "pthread_mutex_lock" + 0x28c 5 ; // 0x5b750 ()
+
+// Function __new_fclose ()
+loop "__new_fclose" + 0xe8 5 ; // 0x2519c ()
+loop "__new_fclose" + 0x20c 5 ; // 0x252c0 ()
+
+// Function ____strtoul_l_internal ()
+loop "____strtoul_l_internal" + 0x3c0 5 ; // 0x1f520 ()
+loop "____strtoul_l_internal" + 0x184 5 ; // 0x1f2e4 ()
+	loop "____strtoul_l_internal" + 0x1fc 5 ; // 0x1f35c ()
+loop "____strtoul_l_internal" + 0x41c 5 ; // 0x1f57c ()
+	loop "____strtoul_l_internal" + 0x440 5 ; // 0x1f5a0 ()
+loop "____strtoul_l_internal" + 0x84 5 ; // 0x1f1e4 ()
+
+// Function __gconv_lookup_cache ()
+loop "__gconv_lookup_cache" + 0x348 5 ; // 0x4a890 ()
+loop "__gconv_lookup_cache" + 0x3dc 5 ; // 0x4a924 ()
+
+// Function find_derivation ()
+loop "find_derivation" + 0x21c 5 ; // 0x3f9d4 ()
+	loop "find_derivation" + 0x254 5 ; // 0x3fa0c ()
+	loop "find_derivation" + 0x2c0 5 ; // 0x3fa78 ()
+		loop "find_derivation" + 0x428 5 ; // 0x3fbe0 ()
+			loop "find_derivation" + 0x44c 5 ; // 0x3fc04 ()
+		loop "find_derivation" + 0x490 5 ; // 0x3fc48 ()
+		loop "find_derivation" + 0x388 5 ; // 0x3fb40 ()
+		loop "find_derivation" + 0x32c 5 ; // 0x3fae4 ()
+loop "find_derivation" + 0x5a0 5 ; // 0x3fd58 ()
+loop "find_derivation" + 0x634 5 ; // 0x3fdec ()
+loop "find_derivation" + 0x770 5 ; // 0x3ff28 ()
+loop "find_derivation" + 0xdc 5 ; // 0x3f894 ()
+loop "find_derivation" + 0x9ec 5 ; // 0x401a4 ()
+
+// Function __wcsmbs_load_conv ()
+loop "__wcsmbs_load_conv" + 0x370 5 ; // 0x37a98 ()
+loop "__wcsmbs_load_conv" + 0x88 5 ; // 0x377b0 ()
+loop "__wcsmbs_load_conv" + 0xc8 5 ; // 0x377f0 ()
+
+// Function __wcsmbs_clone_conv ()
+loop "__wcsmbs_clone_conv" + 0xbc 5 ; // 0x37a98 ()
+
+// Function _IO_wpadn ()
+loop "_IO_wpadn" + 0x208 5 ; // 0x594c8 ()
+loop "_IO_wpadn" + 0x1c4 5 ; // 0x59484 ()
+loop "_IO_wpadn" + 0xa8 5 ; // 0x59368 ()
+loop "_IO_wpadn" + 0x4c 5 ; // 0x5930c ()
+
+// Function _dl_catch_error ()
+loop "_dl_catch_error" + 0x28068 5 ; // 0x65cc8 ()
+loop "_dl_catch_error" + 0x27d74 5 ; // 0x659d4 ()
+loop "_dl_catch_error" + 0x27f10 5 ; // 0x65b70 ()
+loop "_dl_catch_error" + 0x27f84 5 ; // 0x65be4 ()
+loop "_dl_catch_error" + 0x28024 5 ; // 0x65c84 ()
+loop "_dl_catch_error" + 0x27dfc 5 ; // 0x65a5c ()
+	loop "_dl_catch_error" + 0x27e24 5 ; // 0x65a84 ()
+	loop "_dl_catch_error" + 0x27ebc 5 ; // 0x65b1c ()
+
+// Function _IO_adjust_column ()
+loop "_IO_adjust_column" + 0x1c 5 ; // 0x2bf84 ()
+
+// Function __mpn_mul_1 ()
+loop "__mpn_mul_1" + 0xc 5 ; // 0x6a0f0 ()
+
+// Function __mpn_divrem ()
+loop "__mpn_divrem" + 0x384 5 ; // 0x69914 ()
+loop "__mpn_divrem" + 0x2a8 5 ; // 0x69838 ()
+loop "__mpn_divrem" + 0x520 5 ; // 0x69ab0 ()
+	loop "__mpn_divrem" + 0x608 5 ; // 0x69b98 ()
+loop "__mpn_divrem" + 0x120 5 ; // 0x696b0 ()
+	loop "__mpn_divrem" + 0x22c 5 ; // 0x697bc ()
+
+// Function __setitimer64 ()
+loop "__setitimer64" + 0x26c 5 ; // 0x715b8 ()
+
+// Function check_match ()
+loop "check_match" + 0x2ac 5 ; // 0x62aa4 ()
+	loop "check_match" + 0x3bc 5 ; // 0x62bb4 ()
+	loop "check_match" + 0xab4 5 ; // 0x632ac ()
+	loop "check_match" + 0x9ec 5 ; // 0x631e4 ()
+	loop "check_match" + 0x944 5 ; // 0x6313c ()
+	loop "check_match" + 0x4d8 5 ; // 0x62cd0 ()
+loop "check_match" + 0xe70 5 ; // 0x63668 ()
+loop "check_match" + 0xfc0 5 ; // 0x637b8 ()
+loop "check_match" + 0x1078 5 ; // 0x63870 ()
+loop "check_match" + 0xde8 5 ; // 0x635e0 ()
+loop "check_match" + 0x838 5 ; // 0x63030 ()
+	loop "check_match" + 0x850 5 ; // 0x63048 ()
+loop "check_match" + 0x7c8 5 ; // 0x62fc0 ()
+	loop "check_match" + 0x7e0 5 ; // 0x62fd8 ()
+loop "check_match" + 0xb60 5 ; // 0x63358 ()
+	loop "check_match" + 0xba4 5 ; // 0x6339c ()
+		loop "check_match" + 0xbbc 5 ; // 0x633b4 ()
+loop "check_match" + 0x684 5 ; // 0x62e7c ()
+	loop "check_match" + 0x6a8 5 ; // 0x62ea0 ()
+
+// Function __pthread_mutex_unlock ()
+loop "__pthread_mutex_unlock" - 0x0 5 ; // 0x5bfdc ()
+loop "__pthread_mutex_unlock" + 0xfffff9f8 5 ; // 0x5b9d4 ()
+loop "__pthread_mutex_unlock" + 0x514 5 ; // 0x5c4f0 ()
+loop "__pthread_mutex_unlock" + 0x624 5 ; // 0x5c600 ()
+loop "__pthread_mutex_unlock" + 0xfffffc44 5 ; // 0x5bc20 ()
+loop "__pthread_mutex_unlock" + 0xfffffba8 5 ; // 0x5bb84 ()
+loop "__pthread_mutex_unlock" + 0xfffffcf4 5 ; // 0x5bcd0 ()
+loop "__pthread_mutex_unlock" + 0xfffffcbc 5 ; // 0x5bc98 ()
+loop "__pthread_mutex_unlock" + 0xfffffe90 5 ; // 0x5be6c ()
+loop "__pthread_mutex_unlock" + 0xffffff04 5 ; // 0x5bee0 ()
+
+// Function _dl_higher_prime_number ()
+loop "_dl_higher_prime_number" + 0x28 5 ; // 0x64570 ()
+
+// Function expand_dynamic_string_token ()
+loop "expand_dynamic_string_token" + 0x3e0 5 ; // 0x60224 ()
+loop "expand_dynamic_string_token" + 0x480 5 ; // 0x602c4 ()
+	loop "expand_dynamic_string_token" + 0x4bc 5 ; // 0x60300 ()
+	loop "expand_dynamic_string_token" + 0x4a4 5 ; // 0x602e8 ()
+loop "expand_dynamic_string_token" + 0x134 5 ; // 0x5ff78 ()
+	loop "expand_dynamic_string_token" + 0x1d8 5 ; // 0x6001c ()
+	loop "expand_dynamic_string_token" + 0x20c 5 ; // 0x60050 ()
+	loop "expand_dynamic_string_token" + 0x190 5 ; // 0x5ffd4 ()
+loop "expand_dynamic_string_token" + 0xfffffeb8 5 ; // 0x5fcfc ()
+loop "expand_dynamic_string_token" + 0xfffd6e64 5 ; // 0x36ca8 ()
+loop "expand_dynamic_string_token" + 0xfffd702c 5 ; // 0x36e70 ()
+loop "expand_dynamic_string_token" + 0xfffd6fcc 5 ; // 0x36e10 ()
+loop "expand_dynamic_string_token" + 0xfffd70b8 5 ; // 0x36efc ()
+loop "expand_dynamic_string_token" + 0xfffd7058 5 ; // 0x36e9c ()
+loop "expand_dynamic_string_token" + 0xfffd6fa0 5 ; // 0x36de4 ()
+loop "expand_dynamic_string_token" + 0xfffd6f40 5 ; // 0x36d84 ()
+
+// Function __lll_lock_wait ()
+loop "__lll_lock_wait" + 0x1c 5 ; // 0x2d7c0 ()
+
+// Function _IO_file_fopen ()
+loop "_IO_file_fopen" + 0xac 5 ; // 0x29f1c ()
+loop "_IO_file_fopen" + 0xb70 5 ; // 0x2a9e0 ()
+	loop "_IO_file_fopen" + 0xdf4 5 ; // 0x2ac64 ()
+	loop "_IO_file_fopen" + 0xd34 5 ; // 0x2aba4 ()
+	loop "_IO_file_fopen" + 0xcc8 5 ; // 0x2ab38 ()
+loop "_IO_file_fopen" + 0x1f68 5 ; // 0x2bdd8 ()
+loop "_IO_file_fopen" + 0x294 5 ; // 0x2a104 ()
+loop "_IO_file_fopen" + 0x214 5 ; // 0x2a084 ()
+
+// Function __qsort_r ()
+loop "__qsort_r" + 0x110 5 ; // 0x1e708 ()
+	loop "__qsort_r" + 0x148 5 ; // 0x1e740 ()
+loop "__qsort_r" + 0xb4 5 ; // 0x1e6ac ()
+
+// Function __correctly_grouped_prefixmb ()
+loop "__correctly_grouped_prefixmb" + 0x54 5 ; // 0x1f6e0 ()
+	loop "__correctly_grouped_prefixmb" + 0x70 5 ; // 0x1f6fc ()
+		loop "__correctly_grouped_prefixmb" + 0x90 5 ; // 0x1f71c ()
+	loop "__correctly_grouped_prefixmb" + 0x114 5 ; // 0x1f7a0 ()
+		loop "__correctly_grouped_prefixmb" + 0x140 5 ; // 0x1f7cc ()
+			loop "__correctly_grouped_prefixmb" + 0x15c 5 ; // 0x1f7e8 ()
+		loop "__correctly_grouped_prefixmb" + 0x1ac 5 ; // 0x1f838 ()
+			loop "__correctly_grouped_prefixmb" + 0x1c8 5 ; // 0x1f854 ()
+
+// Function find_module_idx ()
+loop "find_module_idx" + 0x6c 5 ; // 0x4a044 ()
+	loop "find_module_idx" + 0xac 5 ; // 0x4a084 ()
+
+// Function wmemcpy ()
+loop "wmemcpy" + 0xfffd9850 5 ; // 0x36ca8 ()
+loop "wmemcpy" + 0xfffd9a18 5 ; // 0x36e70 ()
+loop "wmemcpy" + 0xfffd99b8 5 ; // 0x36e10 ()
+loop "wmemcpy" + 0xfffd9aa4 5 ; // 0x36efc ()
+loop "wmemcpy" + 0xfffd9a44 5 ; // 0x36e9c ()
+loop "wmemcpy" + 0xfffd998c 5 ; // 0x36de4 ()
+loop "wmemcpy" + 0xfffd992c 5 ; // 0x36d84 ()
+
+// Function __wmemmove ()
+loop "__wmemmove" + 0xfffd9848 5 ; // 0x36ca8 ()
+loop "__wmemmove" + 0xfffd9a10 5 ; // 0x36e70 ()
+loop "__wmemmove" + 0xfffd99b0 5 ; // 0x36e10 ()
+loop "__wmemmove" + 0xfffd9a9c 5 ; // 0x36efc ()
+loop "__wmemmove" + 0xfffd9a3c 5 ; // 0x36e9c ()
+loop "__wmemmove" + 0xfffd9984 5 ; // 0x36de4 ()
+loop "__wmemmove" + 0xfffd9924 5 ; // 0x36d84 ()
+loop "__wmemmove" + 0xfffd94bc 5 ; // 0x3691c ()
+loop "__wmemmove" + 0xfffd9680 5 ; // 0x36ae0 ()
+loop "__wmemmove" + 0xfffd9620 5 ; // 0x36a80 ()
+loop "__wmemmove" + 0xfffd970c 5 ; // 0x36b6c ()
+loop "__wmemmove" + 0xfffd96ac 5 ; // 0x36b0c ()
+loop "__wmemmove" + 0xfffd95f4 5 ; // 0x36a54 ()
+loop "__wmemmove" + 0xfffd9594 5 ; // 0x369f4 ()
+
+// Function 0x00057ed0 ()
+loop 0x00057f24 5 ; // 0x57f24 ()
+
+// Function __handle_registered_modifier_wc ()
+loop "__handle_registered_modifier_wc" + 0x44 5 ; // 0x53100 ()
+	loop "__handle_registered_modifier_wc" + 0x6c 5 ; // 0x53128 ()
+
+// Function __mpn_sub_n ()
+loop "__mpn_sub_n" + 0x50 5 ; // 0x6aaf0 ()
+
+// Function __mpn_submul_1 ()
+loop "__mpn_submul_1" + 0x30 5 ; // 0x6ab50 ()
+
+// Function __mpn_add_n ()
+loop "__mpn_add_n" + 0x50 5 ; // 0x704e0 ()
+
+// Function __mpn_cmp ()
+loop "__mpn_cmp" + 0x1c 5 ; // 0x69560 ()
+
+// Function _dl_dst_count ()
+loop "_dl_dst_count" + 0x3c 5 ; // 0x5fc30 ()
+
+// Function is_trusted_path_normalize ()
+loop "is_trusted_path_normalize" + 0x48 5 ; // 0x5eda0 ()
+	loop "is_trusted_path_normalize" + 0x150 5 ; // 0x5eea8 ()
+loop "is_trusted_path_normalize" + 0xe4 5 ; // 0x5ee3c ()
+
+// Function _IO_link_in ()
+loop "_IO_link_in" + 0x2ec 5 ; // 0x2b074 ()
+loop "_IO_link_in" + 0x218 5 ; // 0x2afa0 ()
+loop "_IO_link_in" + 0x190 5 ; // 0x2af18 ()
+
+// Function __sysconf ()
+loop "__sysconf" + 0xa4 5 ; // 0x38418 ()
+
+// Function _quicksort ()
+loop "_quicksort" + 0x438 5 ; // 0x4dbd0 ()
+	loop "_quicksort" + 0x888 5 ; // 0x4e020 ()
+	loop "_quicksort" + 0x84c 5 ; // 0x4dfe4 ()
+	loop "_quicksort" + 0x5bc 5 ; // 0x4dd54 ()
+	loop "_quicksort" + 0x7ec 5 ; // 0x4df84 ()
+	loop "_quicksort" + 0x4f8 5 ; // 0x4dc90 ()
+loop "_quicksort" + 0x20c 5 ; // 0x4d9a4 ()
+	loop "_quicksort" + 0x218 5 ; // 0x4d9b0 ()
+	loop "_quicksort" + 0x2a0 5 ; // 0x4da38 ()
+		loop "_quicksort" + 0x2c0 5 ; // 0x4da58 ()
+loop "_quicksort" + 0x19c 5 ; // 0x4d934 ()
+loop "_quicksort" + 0x1d0 5 ; // 0x4d968 ()
+loop "_quicksort" + 0x84 5 ; // 0x4d81c ()
+	loop "_quicksort" + 0x40c 5 ; // 0x4dba4 ()
+	loop "_quicksort" + 0x3ac 5 ; // 0x4db44 ()
+	loop "_quicksort" + 0xd8 5 ; // 0x4d870 ()
+		loop "_quicksort" + 0xf8 5 ; // 0x4d890 ()
+		loop "_quicksort" + 0x31c 5 ; // 0x4dab4 ()
+	loop "_quicksort" + 0x3e4 5 ; // 0x4db7c ()
+
+// Function msort_with_tmp.part.0 ()
+loop "msort_with_tmp.part.0" + 0x18970 5 ; // 0x36ca8 ()
+loop "msort_with_tmp.part.0" + 0x18b38 5 ; // 0x36e70 ()
+loop "msort_with_tmp.part.0" + 0x18ad8 5 ; // 0x36e10 ()
+loop "msort_with_tmp.part.0" + 0x18bc4 5 ; // 0x36efc ()
+loop "msort_with_tmp.part.0" + 0x18b64 5 ; // 0x36e9c ()
+loop "msort_with_tmp.part.0" + 0x18aac 5 ; // 0x36de4 ()
+loop "msort_with_tmp.part.0" + 0x18a4c 5 ; // 0x36d84 ()
+loop "msort_with_tmp.part.0" + 0x274 5 ; // 0x1e5ac ()
+
+// Function ____strtol_l_internal ()
+loop "____strtol_l_internal" + 0x424 5 ; // 0x4e8dc ()
+loop "____strtol_l_internal" + 0x170 5 ; // 0x4e628 ()
+	loop "____strtol_l_internal" + 0x200 5 ; // 0x4e6b8 ()
+loop "____strtol_l_internal" + 0x480 5 ; // 0x4e938 ()
+	loop "____strtol_l_internal" + 0x4a4 5 ; // 0x4e95c ()
+loop "____strtol_l_internal" + 0x84 5 ; // 0x4e53c ()
+
+
